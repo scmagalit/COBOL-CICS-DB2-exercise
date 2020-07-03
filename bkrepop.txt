@@ -1,0 +1,1702 @@
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0001                                                                                                                   15:50:54
+
+00000001  Lean Software Development: An Agile Toolkit                                   0240  04.17  9780320000000  2003-05-18  0005
+00000002  Facing the Intelligence Explosion                                             0091  03.87  -------------  2013-02-01  0109
+00000003  Scala in Action                                                               0419  03.74  9781940000000  2013-04-10  0111
+00000004  Patterns of Software: Tales from the Software Community                       0256  03.84  9780200000000  1996-08-15  0150
+00000006  Computing machinery and intelligence                                          0024  04.17  -------------  2009-03-22  0134
+00000007  XML: Visual QuickStart Guide                                                  0269  03.66  9780320000000  2009-01-01  0156
+00000008  SQL Cookbook                                                                  0595  03.95  9780600000000  2005-12-01  0001
+00000009  The Apollo Guidance Computer: Architecture And Operation (Springer Praxis Bo  0439  04.29  9781440000000  2010-07-01  0168
+          oks / Space Exploration)
+00000010  Minds and Computers: An Introduction to the Philosophy of Artificial Intelli  0222  03.54  9780750000000  2007-02-13  0071
+          gence
+00000011  The Architecture of Symbolic Computers                                        0739  04.50  9780070000000  1990-11-01  0119
+00000012  Exceptional Ruby: Master the Art of Handling Failure in Ruby                  0102  04.00  -------------  ----------  ----
+00000013  Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery   0468  04.32  9780980000000  2009-01-01  0138
+          and Security Scanning
+00000014  The It Handbook for Business: Managing Information Technology Support Costs   0180  04.40  9781450000000  2010-09-17  0052
+00000015  Accidental Empires                                                            0384  04.00  9780890000000  1996-09-13  0088
+00000016  Introducing HTML5                                                             0223  03.97  9780320000000  2010-07-21  0136
+00000017  Are You Smart Enough to Work at Google?                                       0290  03.52  9780320000000  2012-01-04  0106
+00000018  Elements of ML Programming, Ml97 Edition                                      0400  03.70  9780140000000  1998-01-01  0157
+00000019  Scrum and XP from the Trenches                                                0140  04.17  9781430000000  2007-10-05  0107
+00000020  What is HTML 5?                                                               0027  03.31  -------------  ----------  ----
+00000021  Becoming a Technical Leader: An Organic Problem-Solving Approach              0284  04.09  9780930000000  1986-01-01  0065
+00000022  The Text Mining Handbook: Advanced Approaches in Analyzing Unstructured Data  0410  03.95  9780520000000  2013-08-15  0034
+00000023  Constraint Processing                                                         0480  03.38  9781560000000  2003-05-19  0133
+00000024  Essential PHP Security                                                        0109  04.07  9780600000000  2005-11-01  0001
+00000025  A Book on C: Programming in C                                                 0576  03.74  9780810000000  1994-11-01  0005
+00000026  Scientific Computing                                                          0576  03.42  9780070000000  2001-07-17  0119
+00000027  Cocoa Design Patterns                                                         0427  04.00  9780320000000  2009-09-01  0005
+00000028  Cocoa Programming for Mac OS X                                                0433  03.97  9780320000000  2008-05-05  0005
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0027 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0002                                                                                                                   15:50:54
+
+00000029  Six Degrees: The Science of a Connected Age                                   0384  03.90  9780390000000  2004-02-17  0223
+00000030  Big Data Now: Current Perspectives from O'Reilly Radar                        0137  03.33  -------------  ----------  ----
+00000031  OpenGL Programming Guide: The Official Guide to Learning OpenGL, Version 2    0838  03.66  9780320000000  2005-08-11  0005
+00000032  Killer Game Programming in Java                                               0969  03.26  9780600000000  2005-05-30  0001
+00000033  Mathematik Fur Informatiker: Band 1: Diskrete Mathematik Und Lineare Algebra  0514  04.10  9783540000000  2010-10-13  0199
+00000034  C++ Network Programming, Volume I: Mastering Complexity with ACE and Pattern  0336  03.85  9780200000000  2001-12-20  0005
+          s
+00000035  Gamification by Design                                                        0208  03.66  9781450000000  2011-08-19  0001
+00000036  Cyberwar: The Next Threat to National Security & What to Do About It          0304  03.72  9780060000000  2010-04-20  0070
+00000037  More Effective C#: 50 Specific Ways to Improve Your C#                        0297  04.09  9780320000000  2008-10-17  0005
+00000041  C++ Programming: From Problem Analysis to Program Design                      1344  04.18  9781420000000  2006-02-01  0048
+00000042  Numerical Linear Algebra                                                      0184  04.17  9780900000000  1997-06-01  0194
+00000043  The Principles of Product Development Flow: Second Generation Lean Product D  0276  04.16  9781940000000  2009-05-01  0038
+          evelopment
+00000044  An Embedded Software Primer                                                   0448  03.71  9780200000000  1999-08-15  0005
+00000045  Free Culture: The Nature and Future of Creativity                             0368  04.12  9780140000000  2005-02-22  0160
+00000046  Upgrading and Repairing PCs                                                   1608  04.13  9780790000000  2006-04-03  0179
+00000047  Perfect Software--And Other Illusions about Testing                           0182  04.13  9780930000000  2008-01-01  0065
+00000048  Mastering Algorithms with C                                                   0562  03.78  9781570000000  1999-08-12  0001
+00000049  Ant: The Definitive Guide                                                     0336  03.08  9780600000000  2005-04-20  0001
+00000050  Version Control By Example                                                    ----  03.49  -------------  2011-07-22  0177
+00000051  A Primer on Scientific Programming with Python                                0693  03.85  9783640000000  2009-09-10  0199
+00000052  Practical C++ Programming                                                     0574  03.58  9780600000000  2002-12-20  0001
+00000080  Computer Science from the Bottom Up                                           ----  03.80  -------------  ----------  ----
+00000081  ZooKeeper: Distributed process coordination                                   0238  03.92  9781450000000  2013-12-02  0001
+00000082  Two Scoops of Django: Best Practices for Django 1.5                           0277  04.23  -------------  2013-01-20  0037
+00000102  Git in Practice                                                               0225  04.12  9781620000000  2014-10-31  0111
+00000103  Programming F# 3.0                                                            0476  03.86  9781450000000  2012-10-26  0001
+00000104  No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State    0260  04.08  9781630000000  2014-05-13  0127
+00000105  Android Design Patterns: Interaction Design Solutions for Developers          0456  03.72  9781120000000  2013-03-11  0232
+
+                                                     0028 RECORDS ON THIS PAGE
+                                                     0055 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0003                                                                                                                   15:50:54
+
+00000106  The Career Programmer: Guerilla Tactics for an Imperfect World (Expert's Voi  0264  03.15  9781590000000  2006-02-01  0014
+          ce)
+00000107  Principles of Concurrent and Distributed Programming                          0361  03.44  9780320000000  2006-02-01  0157
+00000108  The Elements of Scrum                                                         0184  03.94  9780980000000  2011-03-22  0069
+00000109  Java Se8 for the Really Impatient: A Short Course on the Basics               0215  03.92  9780320000000  2014-01-24  0005
+00000110  The Book of F#: Breaking Free with Managed Functional Programming             0352  03.88  9781590000000  2014-03-22  0139
+00000111  Good Math: A Geek's Guide to the Beauty of Numbers, Logic, and Computation    0262  03.62  9781940000000  2013-09-06  0208
+00000112  Methods of Programming                                                        0272  04.08  9780200000000  1988-01-01  0005
+00000113  Principles of Information Security                                            0624  03.42  9781420000000  2008-01-01  0048
+00000114  Learn Windows PowerShell 3 in a Month of Lunches                              0368  04.30  9781620000000  2012-11-22  0111
+00000115  Professional Android 4 Application Development                                0817  03.94  9781120000000  2012-05-01  0238
+00000116  Show Stopper,: The Breakneck Race to Create Windows NT and the Next Generati  0312  04.12  9780030000000  1994-06-01  0078
+          on at Microsoft
+00000117  Explore It,: Reduce Risk and Increase Confidence with Exploratory Testing     0162  04.33  9781940000000  2012-03-22  0167
+00000118  The Python Standard Library by Example                                        0672  04.23  9780320000000  2011-06-11  0005
+00000119  JUnit in Action                                                               0504  03.54  9781940000000  2010-08-04  0111
+00000120  The Mikado Method                                                             0245  03.36  9781620000000  2014-03-22  0111
+00000121  REST API Design Rulebook                                                      0116  03.29  -------------  ----------  ----
+00000122  Scrum: a Breathtakingly Brief and Agile Introduction                          0054  03.93  -------------  2014-07-30  0069
+00000123  Security+ Guide to Network Security Fundamentals                              0592  03.65  9781430000000  2008-11-11  0039
+00000124  Classic Shell Scripting: Hidden Commands that Unlock the Power of Unix        0560  04.03  9780600000000  2005-05-23  0001
+00000125  Head First HTML and CSS                                                       0768  04.25  9780600000000  2012-09-05  0001
+00000126  Mobile First                                                                  0130  03.96  -------------  2011-10-18  0002
+00000127  Genetic Algorithms in Search, Optimization, and Machine Learning              0432  04.14  9785342000000  1989-01-11  0005
+00000128  Introduction to Distributed Algorithms                                        0612  03.73  9780520000000  2004-01-05  0034
+00000129  Debug It,: Find, Repair, and Prevent Bugs in Your Code                        0232  03.45  9781930000000  2009-11-22  0167
+00000130  Visual Explanations: Images and Quantities, Evidence and Narrative            0156  04.29  9780960000000  1998-04-22  0084
+00000131  The Intelligent Web: Search, Smart Algorithms, and Big Data                   0295  03.70  9780200000000  2014-01-28  0150
+00000132  Principles of Transaction Processing                                          0378  03.78  9781560000000  2009-06-01  0133
+00000133  The Mindi?1s I: Fantasies and Reflections on Self and Soul                    0512  04.14  9780550000000  1985-04-01  0021
+
+                                                     0028 RECORDS ON THIS PAGE
+                                                     0083 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0004                                                                                                                   15:50:54
+
+00000134  Managing Software Requirements: A Use Case Approach                           0502  03.50  9780320000000  2003-05-05  0005
+00000135  Software Testing                                                              0416  03.74  9780670000000  2005-07-01  0186
+00000136  Teach Yourself Uml In 24 Hours                                                ----  03.36  9780670000000  ----------  ----
+00000137  MySQL Pocket Reference                                                        0096  03.84  9780600000000  2003-03-03  0001
+00000138  Fundamentals of Digital Logic with VHDL Design With CDROM                     0939  03.76  9780070000000  2004-07-15  0119
+00000139  Calendrical Calculations                                                      0479  04.23  9780520000000  2007-12-01  0034
+00000140  Liars and Outliers: Enabling the Trust that Society Needs to Thrive           0348  03.77  9781120000000  2012-02-01  0232
+00000141  Beautiful Data: The Stories Behind Elegant Data Solutions (Theory In Practic  0384  03.64  9780600000000  2009-07-28  0001
+          e, #31)
+00000142  Programming Distributed Computing Systems: A Foundational Approach            0296  03.72  9780260000000  2013-05-31  0129
+00000143  Applied Predictive Modeling                                                   0600  04.45  9781460000000  2018-03-30  0199
+00000144  Living Clojure                                                                0300  04.09  -------------  2015-01-25  0001
+00000145  Refactoring: Ruby Edition, Adobe Reader                                       0480  04.10  9780320000000  2009-10-15  0005
+00000146  Embedded Android: Porting, Extending, and Customizing                         ----  04.14  9781450000000  2011-10-22  0001
+00000147  Jenkins: The Definitive Guide                                                 0406  03.42  9781450000000  2011-07-27  0001
+00000148  The Lambda Calculus: Its Syntax and Semantics                                 0654  04.21  9780440000000  1985-11-15  0001
+00000149  Generative Design: Visualize, Program, and Create with Processing             0472  04.55  9781620000000  2012-08-22  0173
+00000150  API Design for C++                                                            0472  04.09  9780120000000  2011-02-18  0133
+00000151  Test-Driven iOS Development                                                   0256  03.56  9780320000000  2012-04-19  0005
+00000152  Designing with the Mind in Mind: Simple Guide to Understanding User Interfac  0201  04.09  9780080000000  2010-05-20  0073
+          e Design Rules
+00000153  The Imitation Game                                                            0197  03.63  -------------  2014-06-22  0212
+00000154  The Systems Bible: The Beginner's Guide to Systems Large and Small: Being th  0314  04.04  9780960000000  2002-01-01  0082
+          e Third Edition of Systemantics
+00000155  Great Principles of Computing                                                 0320  03.13  9780260000000  2015-01-23  0129
+00000156  Erlang and OTP in Action                                                      0432  04.27  9781930000000  2010-12-05  0111
+00000157  Pattern Oriented Software Architecture Volume 5: On Patterns and Pattern Lan  0450  03.73  9780470000000  2007-06-01  0100
+          guages
+00000158  Who Owns the Future?                                                          0367  03.77  9781450000000  2013-05-07  0190
+00000159  C# 6.0 and the .NET 4.6 Framework                                             1660  04.58  -------------  2015-11-11  0014
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0109 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0005                                                                                                                   15:50:54
+
+00000160  Mazes for Programmers: Code Your Own Twisty Little Passages                   0275  04.31  9781680000000  2015-09-25  0167
+00000161  Computer Science: Discovering God's Glory in Ones and Zeros                   0032  03.82  -------------  2015-03-08  0151
+00000162  The Unicode Standard                                                          1472  04.22  9780320000000  2006-11-01  0005
+00000163  Linux Phrasebook                                                              0382  04.12  9780670000000  2006-06-22  0186
+00000164  Cryptanalysis: A Study of Ciphers and Their Solution                          0256  03.79  9780490000000  1989-04-01  0068
+00000165  Swarm Intelligence: From Natural to Artificial Systems                        0307  03.96  9780200000000  1999-09-23  0150
+00000166  Programming in Go: Creating Applications for the 21st Century                 0475  03.75  9780320000000  2012-05-14  0005
+00000167  Head First JavaScript Programming                                             0661  04.24  9781450000000  2014-03-22  0001
+00000168  Learning Web Design: A Beginner's Guide to Html, Css, Javascript, and Web Gr  0624  04.17  9781450000000  2012-08-24  0001
+          aphics
+00000169  Two Scoops of Django: Best Practices for Django 1.8                           0505  04.53  -------------  2015-04-29  0215
+00000170  Theoretical Neuroscience: Computational and Mathematical Modeling of Neural   0480  04.26  9780260000000  2005-08-12  0129
+          Systems
+00000171  Geometric Algebra for Computer Science: An Object-Oriented Approach to Geome  0626  03.97  9780120000000  2007-04-01  0133
+          try
+00000172  Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Anal  0724  04.23  9781450000000  2015-02-14  0001
+          ytics Engine
+00000173  Bayesian Data Analysis                                                        0690  04.20  9781580000000  2003-07-29  0050
+00000174  The Art of Software Security Assessment: Identifying and Preventing Software  1174  04.45  9780320000000  2006-11-01  0005
+           Vulnerabilities
+00000175  Principles of Distributed Database Systems                                    0666  03.94  9780140000000  1999-01-19  0169
+00000176  Algorithms And Data Structures: The Basic Toolbox                             0300  04.00  9783640000000  2010-11-10  0199
+00000177  The Idea Factory: Bell Labs and the Great Age of American Innovation          0432  04.15  9781590000000  2012-03-15  0160
+00000178  Bulletproof SSL and TLS: The Complete Guide to Deploying Secure Servers and   0425  04.59  9781910000000  2014-07-31  0074
+          Web Applications
+00000179  Pro ASP.NET MVC 5                                                             0832  04.13  -------------  2013-12-19  0014
+00000180  PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide                    0692  03.83  9780320000000  2005-06-21  0156
+00000181  Java 8 Lambdas: Pragmatic Functional Programming                              0182  03.99  9781450000000  2014-04-22  0001
+00000182  Learn Ruby the Hard Way                                                       0173  03.67  -------------  2011-12-11  0188
+00000183  Cybersecurity and Cyberwar: What Everyone Needs to Know(r)                    0306  03.83  9780200000000  2014-01-03  0150
+
+                                                     0024 RECORDS ON THIS PAGE
+                                                     0133 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0006                                                                                                                   15:50:54
+
+00000184  3D Math Primer for Graphics and Game Development                              0429  04.16  9781560000000  2002-06-21  0101
+00000185  HTML5 for Web Designers                                                       0087  04.02  9780980000000  2010-05-04  0002
+00000186  The Practice of Network Security Monitoring: Understanding Incident Detectio  0376  04.03  9781590000000  2013-08-02  0139
+          n and Response
+00000187  Hacker, Hoaxer, Whistleblower, Spy: The Many Faces of Anonymous               0453  03.84  9781780000000  2014-11-04  0218
+00000188  Computer Vision: Models, Learning, and Inference                              0600  04.38  9781110000000  2012-06-18  0034
+00000189  Introduction to Graph Theory                                                  0224  04.09  9780490000000  1994-02-09  0068
+00000190  Performance Modeling and Design of Computer Systems: Queueing Theory in Acti  0576  04.70  9781110000000  2013-02-01  0034
+          on
+00000191  Comptia A+ Certification All-In-One Exam Guide: Exams 220-801 & 220-802       1200  04.16  9780070000000  2012-08-22  0119
+00000192  Thinking Functionally with Haskell                                            0350  04.14  9781110000000  2014-10-09  0034
+00000193  Data Science at the Command Line: Facing the Future with Time-Tested Tools    0212  03.87  9781490000000  2014-10-12  0001
+00000194  Linked Data                                                                   0336  03.66  9781620000000  2013-03-22  0111
+00000195  The Black Box Society: The Secret Algorithms That Control Money and Informat  0320  03.63  9780670000000  2015-01-05  0092
+          ion
+00000196  Applying Domain-Driven Design and Patterns : With Examples in C# and .NET     0528  03.61  9780320000000  2006-05-01  0005
+00000197  Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal      0299  04.04  9781590000000  2013-11-05  0166
+00000198  Algorithms Illuminated: Part 1: The Basics                                    ----  04.49  -------------  2017-09-26  0195
+00000199  IBM PC Assembly Language and Programming                                      0545  04.02  9780130000000  2000-08-22  0169
+00000200  Assembly Language for Intel-Based Computers                                   0676  04.07  9780140000000  1998-09-08  0169
+00000201  Functional Programming in JavaScript                                          0272  04.17  -------------  2016-06-22  0111
+00000205  Brotopia: Breaking Up the Boys' Club of Silicon Valley                        0317  04.03  -------------  2018-02-06  0165
+00000206  High Performance MySQL: Optimization, Backups, and Replication                0826  04.39  -------------  2012-03-05  0001
+00000223  Reactive Microservices Architecture                                           0054  03.66  -------------  2016-03-22  0001
+00000224  Essential Algorithms: A Practical Approach to Computer Algorithms             0301  03.90  9781120000000  2013-08-12  0232
+00000225  The Unix Philosophy                                                           0176  04.05  9781560000000  1994-12-28  0064
+00000239  Programming Rust: Fast, Safe Systems Development                              0622  04.61  9781490000000  2017-12-21  0001
+00000240  Reactive Microsystems                                                         0084  04.48  -------------  2017-08-07  0001
+00000241  Async JavaScript                                                              0104  04.02  -------------  2012-03-21  0105
+00000242  A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core P  ----  04.16  9781680000000  2017-10-25  0167
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0160 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0007                                                                                                                   15:50:54
+
+          rogramming Skills
+00000243  Bad Choices                                                                   0160  03.28  9780740000000  2017-04-04  0220
+00000244  Life in Code: A Personal History of Technology                                0320  03.96  9780370000000  2017-08-08  0117
+00000245  The Everything Store: Jeff Bezos and the Age of Amazon                        0384  04.12  9780320000000  2013-10-15  0106
+00000246  Computer Science: A Very Short Introduction                                   0144  03.78  9780200000000  2016-06-01  0150
+00000247  Make Your Own Neural Network: An In-depth Visual Introduction For Beginners   0316  04.21  -------------  2017-08-29  0030
+00000248  Practical Statistics for Data Scientists: 50 Essential Concepts               0318  04.05  9781490000000  2017-05-28  0001
+00000249  What Is Life? with Mind and Matter and Autobiographical Sketches              0184  04.15  9780520000000  1992-01-31  0034
+00000250  Python Testing with Pytest: Simple, Rapid, Effective, and Scalable            ----  04.16  9781680000000  2017-10-25  0167
+00000251  The Age of Cryptocurrency: How Bitcoin and Digital Money Are Challenging the  0368  03.89  9781250000000  2015-01-27  0201
+           Global Economic Order
+00000252  Introducing Ethereum and Solidity: Foundations of Cryptocurrency and Blockch  0208  03.37  9781480000000  2017-03-18  0014
+          ain Programming for Beginners
+00000253  The Cambridge Handbook of Artificial Intelligence                             0368  04.10  9780520000000  2014-07-31  0034
+00000254  Understanding the Digital World: What You Need to Know about Computers, the   0256  04.28  9780690000000  2017-01-24  0174
+          Internet, Privacy, and Security
+00000255  The Non-Designer's Design Book                                                0191  04.05  9780320000000  2003-08-28  0156
+00000256  The CS Detective: An Algorithmic Tale of Crime, Conspiracy, and Computation   0246  03.98  9781590000000  2016-08-16  0139
+00000257  High Performance Spark: Best Practices for Scaling and Optimizing Apache Spa  0358  03.89  9781490000000  2017-06-16  0001
+          rk
+00000258  Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations      0504  03.68  9780520000000  2008-12-01  0034
+00000259  Exploring ES6                                                                 0630  04.42  -------------  2015-06-13  ----
+00000260  Web Scalability for Startup Engineers                                         0416  04.58  9780070000000  2015-06-23  0119
+00000261  Hacking For Dummies                                                           0388  03.69  9780470000000  2006-11-01  0232
+00000262  The Nature of Software Development                                            ----  04.13  -------------  ----------  ----
+00000263  Computational Science and Engineering                                         0716  04.00  9780960000000  2007-11-01  0229
+00000264  PHP Web Services: APIs for the Modern Web                                     0118  03.64  9781450000000  2013-05-03  0001
+00000265  The Debian Administrator's Handbook                                           0498  04.09  -------------  2012-04-22  ----
+00000266  Lean Enterprise: How High Performance Organizations Innovate at Scale         0352  04.25  9781450000000  2014-12-04  0001
+00000267  C++ For Dummies                                                               0432  03.59  -------------  2004-05-07  0076
+
+                                                     0025 RECORDS ON THIS PAGE
+                                                     0185 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0008                                                                                                                   15:50:54
+
+00000268  Agile Project Management with Scrum                                           0188  03.70  9780740000000  2004-02-18  0128
+00000269  Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms,   0624  04.48  9780260000000  2015-07-24  0129
+          Worked Examples, and Case Studies
+00000270  Information: The New Language of Science                                      ----  03.91  9780670000000  2004-04-30  0092
+00000271  Machine Learning Yearning                                                     ----  04.30  -------------  ----------  ----
+00000272  Game Physics Engine Development With CDROM                                    0456  04.22  9780120000000  2007-03-07  0133
+00000273  Software Requirements 3                                                       0672  04.29  9780740000000  2013-08-12  0128
+00000274  The Developer's Code: What Real Programmers Do                                0142  03.42  -------------  2012-02-22  0208
+00000275  Test Driven Development for Embedded C                                        0352  04.20  9781930000000  2011-05-02  0167
+00000276  Coding Interview Questions                                                    0520  04.09  9781480000000  2012-05-02  0052
+00000277  Internetworking with TCP/IP Vol.1: Principles, Protocols, and Architecture    0750  04.12  9780130000000  2000-01-18  0169
+00000278  Absolute C++                                                                  0943  03.84  9780320000000  2007-03-01  0005
+00000279  Python Algorithms: Mastering Basic Algorithms in the Python Language          0316  04.01  9781430000000  2010-11-24  0014
+00000280  Genetic Programming: On the Programming of Computers by Means of Natural Sel  0836  04.28  9780260000000  1992-12-11  0032
+          ection
+00000281  Ada, the Enchantress of Numbers: A Selection from the Letters of Lord Byron'  0439  03.34  9780910000000  1992-01-08  0055
+          s Daughter and Her Description of the First Computer
+00000282  The Last Lecture                                                              0217  04.26  -------------  2008-04-11  0087
+00000283  Principles of Program Analysis                                                0452  03.87  9783540000000  2004-12-10  0199
+00000284  Term Rewriting and All That                                                   0316  04.11  9780520000000  2006-07-31  0034
+00000285  Java Examples in a Nutshell: A Companion Volume to Java in a Nutshell         0397  03.47  9781570000000  1997-09-08  0001
+00000286  Database in Depth: Relational Theory for Practitioners                        0232  03.96  9780600000000  2005-05-15  0001
+00000287  Communication and Concurrency                                                 0300  04.73  9780130000000  1995-12-01  0169
+00000288  ERLANG Programming                                                            0496  04.09  9780600000000  2009-06-26  0001
+00000289  Data Compression Book                                                         0576  03.93  9781560000000  1995-12-14  0232
+00000290  Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion  0366  03.63  9780140000000  2008-06-01  0005
+00000291  Programming Languages: Design and Implementation                              0672  03.91  9780130000000  2000-09-07  0157
+00000292  The Art of Assembly Language                                                  0928  03.70  9781890000000  2003-09-08  0139
+00000293  Introduction to Parallel Computing                                            0656  03.39  9780200000000  2003-01-26  0157
+00000294  Introduction to Computational Genomics                                        0182  04.00  9780520000000  2007-02-01  0034
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0212 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0009                                                                                                                   15:50:54
+
+00000295  Problem Solving with C++: The Object of Programming                           0800  03.72  9780810000000  1996-01-01  0005
+00000296  Ship It,                                                                      0200  03.75  9780970000000  2005-06-08  0167
+00000297  Cloud Application Architectures: Building Applications and Infrastructure in  0208  03.07  9780600000000  2009-04-10  0001
+           the Cloud
+00000298  Common LISP: The Language                                                     1029  04.26  9781560000000  1984-06-29  0064
+00000299  C++: The Complete Reference                                                   1056  04.04  9780070000000  2002-12-10  0119
+00000300  Revolution in The Valley: The Insanely Great Story of How the Mac Was Made    0291  04.17  9780600000000  2004-12-16  0001
+00000301  Introduction to Computer Theory                                               0648  03.89  9780470000000  1996-10-25  0232
+00000302  Network Security Essentials: Applications and Standards                       0413  03.81  9780130000000  2006-07-01  0169
+00000303  The Formal Semantics of Programming Languages: An Introduction                0384  03.68  9780260000000  1993-02-05  0129
+00000304  Java Performance                                                              0720  04.11  -------------  ----------  ----
+00000305  C++ from the Ground Up                                                        0624  04.02  9780070000000  2003-04-09  0119
+00000306  Lionsi?1 Commentary on UNIX 6th Edition with Source Code                      0254  04.38  9781570000000  1996-01-01  0159
+00000307  Beyond Fear: Thinking Sensibly about Security in an Uncertain World           0296  04.00  9780390000000  2006-05-04  0046
+00000308  Communication Networks: Fundamental Concepts and Key Architectures            0928  04.17   639786000000  2003-07-16  0119
+00000309  Computability: An Introduction to Recursive Function Theory                   0264  03.76  9780520000000  1980-06-19  0034
+00000310  Logik fA1r Informatiker                                                       0200  03.23  9783830000000  2000-01-01  0199
+00000311  Fluid Concepts and Creative Analogies                                         0528  03.98  9780470000000  1996-03-22  0024
+00000312  Core Java 2, Volume I--Fundamentals (Core Series)                             0784  03.83  9780130000000  2004-08-27  0169
+00000313  VI Editor Pocket Reference (Pocket Reference                                  0080  04.02  9781570000000  1999-01-25  0001
+00000314  Practical UNIX & Internet Security                                            1004  03.86  9781570000000  1996-04-08  0001
+00000315  An Introduction to Bioinformatics Algorithms                                  0456  03.78  9780260000000  2004-08-06  0129
+00000316  Eniac: The Triumphs and Tragedies of the World's First Computer               0262  03.78  9780430000000  2001-02-01  0025
+00000317  No Tech Hacking: A Guide to Social Engineering, Dumpster Diving, and Shoulde  0285  04.00  9781600000000  2008-02-01  0203
+          r Surfing
+00000318  The Google Story: Inside the Hottest Business, Media, and Technology Success  0336  03.84  9780550000000  2008-09-23  0062
+           of Our Time
+00000319  Quality Software Management: Systems Thinking                                 0336  04.26  9780930000000  1992-01-01  0065
+00000320  The Standard C Library                                                        0512  04.12  9780130000000  1991-07-11  0169
+00000321  Beginning Linux Programming                                                   0848  03.78  9780760000000  2004-01-02  0232
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0239 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0010                                                                                                                   15:50:54
+
+00000322  Ruminations on C++: A Decade of Programming Insight and Experience            0400  03.91  9780200000000  1996-08-17  0005
+00000323  The Hundred-Page Machine Learning Book                                        ----  04.64  -------------  ----------  ----
+00000324  Starting Out with C++: From Control Structures Through Objects                1248  03.90  9780130000000  2011-03-07  0157
+00000325  Building Machine Learning Systems with Python                                 0350  03.86  9781780000000  2013-09-30  0152
+00000326  Core J2EE Patterns: Best Practices and Design Strategies                      0528  03.41  9780130000000  2003-06-20  0169
+00000327  Java Generics and Collections: Speed Up the Java Development Process          0286  03.94  9780600000000  2006-10-24  0001
+00000328  UNIX Network Programming, Volume 2: Interprocess Communications               0592  04.35  9780130000000  1998-09-04  0169
+00000329  Pattern-Oriented Software Architecture Volume 2: Patterns for Concurrent and  0666  03.65  9780470000000  2000-10-03  0232
+           Networked Objects
+00000330  Computer: A History of the Information Machine                                0376  04.11  9780810000000  2013-07-30  0230
+00000331  A Programmer's Introduction to Mathematics                                    0378  03.83  9781730000000  2018-11-27  0052
+00000332  Programming Languages: Principles and Practice                                0720  03.12  9780530000000  2002-07-16  0048
+00000333  Machine Learning in Action                                                    0384  03.74  9781620000000  2012-04-16  0111
+00000334  What is DevOps?                                                               0018  03.53  -------------  2012-06-11  0001
+00000335  Let Us C                                                                      0746  04.12  9788180000000  2004-03-22  0031
+00000336  Working with UNIX Processes                                                   0148  04.06  -------------  2012-01-01  ----
+00000337  Computability and Unsolvability                                               0288  03.87  9780490000000  1985-12-01  0068
+00000338  File Structures: An Object-Oriented Approach with C++                         0724  03.89  9780200000000  1997-12-16  0005
+00000339  Mathematical Logic for Computer Science                                       0354  03.77  9781850000000  2011-11-22  0199
+00000340  Operating System Concepts Essentials                                          0725  03.76  9780470000000  2010-11-23  0100
+00000341  Python Programming for the Absolute Beginner                                  0472  03.89  9781600000000  2005-11-08  0048
+00000342  Algorithms of the Intelligent Web                                             0368  03.61  9781930000000  2009-07-05  0111
+00000343  Making Software: What Really Works, and Why We Believe It                     0624  03.48  9780600000000  2010-10-27  0001
+00000344  Operating System Concepts with Java                                           1020  03.74  9780470000000  2009-11-01  0232
+00000345  An Introduction to Kolmogorov Complexity and Its Applications                 0637  03.96  9780390000000  1997-02-27  0199
+00000346  Responsive Web Design                                                         0150  04.16  -------------  2011-06-07  0002
+00000347  The Hacker Ethic: A Radical Approach to the Philosophy of Business            0256  03.71  9780380000000  2002-02-12  0181
+00000348  Invent Your Own Computer Games with Python                                    0438  04.05  9780980000000  2010-05-01  0010
+00000349  Machine Learning: An Algorithmic Perspective                                  0390  03.64  9781420000000  2009-04-01  0041
+00000350  DSLs in Action                                                                0376  03.49  9781940000000  2011-01-04  0111
+
+                                                     0029 RECORDS ON THIS PAGE
+                                                     0268 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0011                                                                                                                   15:50:54
+
+00000351  Real Digital Forensics: Computer Security and Incident Response               0688  04.13  -------------  2005-09-23  0005
+00000352  Game Coding Complete                                                          0928  04.01  9781930000000  2003-06-15  0155
+00000353  Principles of Programming Languages: Design, Evaluation, and Implementation   0528  03.70  9780200000000  1999-03-25  0150
+00000354  Discrete and Combinatorial Mathematics                                        0800  03.62  9780200000000  2003-07-27  0157
+00000355  Object-Oriented Software Engineering: Using UML, Patterns and Java            0762  03.68  9780130000000  2003-09-25  0169
+00000356  The Art of Doing Science and Engineering: Learning to Learn                   0376  04.28  9789060000000  1997-10-28  0050
+00000357  Numerical Recipes: The Art of Scientific Computing                            1235  04.23  9780520000000  2007-10-01  0034
+00000358  Worm: The First Digital World War                                             0233  03.55  9780800000000  2011-09-27  0017
+00000359  CSS Mastery: Advanced Web Standards Solutions                                 0255  04.11  9781590000000  2006-02-01  0080
+00000360  Unlocking the Clubhouse: Women in Computing                                   0184  04.18  9780260000000  2003-02-28  0129
+00000361  D Is for Digital: What a Well-Informed Person Should Know about Computers an  0238  04.22  9781460000000  2011-09-23  0052
+          d Communications
+00000362  A Practical Guide to Linux Commands, Editors, and Shell Programming           1008  04.00  9780130000000  2005-07-01  0169
+00000363  Introduction to Evolutionary Computing                                        0300  04.03  9783540000000  2007-08-06  0199
+00000364  Wikinomics: How Mass Collaboration Changes Everything                         0324  03.72  9781590000000  2006-12-12  0160
+00000365  Software Craftsmanship: The New Imperative                                    0182  03.92  9780200000000  2001-09-02  0005
+00000366  Head First HTML with CSS & XHTML                                              0702  04.14  9780600000000  2005-12-01  0001
+00000367  Webmaster in a Nutshell                                                       0537  03.65  9781570000000  1999-06-11  0001
+00000368  A Gift of Fire: Social, Legal, and Ethical Issues for Computers and the Inte  0464  03.33  9780130000000  2002-06-05  0169
+          rnet
+00000369  Perl Pocket Reference                                                         0096  04.22  9780600000000  2002-07-29  0001
+00000370  More Exceptional C++: 40 New Engineering Puzzles, Programming Problems, and   0304  04.20  9780200000000  2001-12-17  0005
+          Solutions
+00000371  Real-Time Collision Detection (The Morgan Kaufmann Series in Interactive 3d   0632  04.45  9781560000000  2004-12-22  0050
+          Technology)
+00000372  Clever Algorithms: Nature-Inspired Programming Recipes                        0436  03.73  -------------  2011-01-22  0107
+00000373  Learning OpenCV: Computer Vision with the OpenCV Library                      0580  04.01  9780600000000  2008-10-01  0001
+00000374  Grace Hopper and the Invention of the Information Age (Lemelson Center Studi  0408  03.83  9780260000000  2009-07-10  0204
+          es in Invention and Innovation series)
+00000375  Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins    ----  03.94  9781480000000  2017-05-02  0175
+
+                                                     0025 RECORDS ON THIS PAGE
+                                                     0293 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0012                                                                                                                   15:50:54
+
+00000376  Deep Learning: A Practitioner's Approach                                      0200  03.71  9781490000000  2015-08-15  0001
+00000377  Professor Frisby's Mostly Adequate Guide to Functional Programming            0115  04.36  -------------  ----------  ----
+00000378  Turing's Vision: The Birth of Computer Science                                0208  04.29  9780260000000  2016-05-13  0129
+00000379  Mathematical Elements for Computer Graphics                                   0611  04.02  9780070000000  1989-08-01  0119
+00000380  Chaos: Making a New Science                                                   0352  03.99  9780140000000  1988-12-01  0160
+00000381  Operating Systems: Internals and Design Principles                            0818  03.65  9780130000000  2005-02-14  0169
+00000382  Working Effectively with Unit Tests                                           0204  04.04  -------------  2014-06-29  0105
+00000383  Best Practices of Spell Design                                                0140  03.84  9781480000000  2013-01-21  0052
+00000384  Mathematical Structures for Computer Science                                  0784  03.98  9780720000000  2006-07-07  0222
+00000385  BDD in Action: Behavior-driven development for the whole software lifecycle   0384  04.09  9781620000000  2014-10-12  0111
+00000386  The Business Blockchain: Promise, Practice, and Application of the Next Inte  0208  03.49  9781120000000  2016-04-26  0232
+          rnet Technology
+00000387  Basic Proof Theory                                                            0355  03.83  9780520000000  1996-09-13  0034
+00000388  Patterns Principles and Practices of Domain Driven Design                     0736  04.29  -------------  2015-03-22  0228
+00000389  The Princeton Companion to Mathematics                                        1034  04.39  9780690000000  2008-09-28  0174
+00000390  Docker: Up & Running: Shipping Reliable Containers in Production              0230  03.76  9781490000000  2015-06-09  0001
+00000391  Introduction to 64 Bit Intel Assembly Language Programming for Linux: Second  0310  03.86  -------------  2012-07-02  ----
+           Edition
+00000392  Pragmatic Unit Testing in Java 8 with Junit                                   0200  03.77  9781940000000  2015-03-19  0167
+00000393  Modern Processor Design: Fundamentals of Superscalar Processors               0642  04.25  9781480000000  2013-08-12  0228
+00000394  Visualize This: The FlowingData Guide to Design, Visualization, and Statisti  0358  03.88  9780470000000  2011-07-20  0232
+          cs
+00000395  Data Structures Using C and C++                                               0672  04.21  9780130000000  1995-12-29  0157
+00000396  How to Think About Algorithms                                                 0472  03.87  -------------  2008-05-19  0034
+00000397  Operating Systems: Principles and Practice                                    0674  04.10  9780990000000  2012-07-17  0182
+00000398  Complex Adaptive Systems: An Introduction to Computational Models of Social   0263  03.95  9780690000000  2007-03-01  0174
+          Life
+00000399  Exercises in Programming Style                                                0304  04.39  9781480000000  2014-06-16  0050
+00000400  An Introduction to Parallel Programming                                       0370  03.78  9780120000000  2011-01-21  0133
+00000401  SSH Mastery: OpenSSH, PuTTY, Tunnels and Keys                                 0150  04.16  -------------  2012-01-18  0211
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0319 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0013                                                                                                                   15:50:54
+
+00000402  How to Break Software: A Practical Guide to Testing                           0208  03.66  -------------  2002-05-09  0005
+00000403  Taming Text                                                                   0322  03.81  9781930000000  2013-01-21  0111
+00000404  Write Great Code: Volume 2: Thinking Low-Level, Writing High-Level            0640  04.05  9781590000000  2006-03-18  0139
+00000405  Core Java, Volume II--Advanced Features                                       1002  03.96  9780130000000  ----------  ----
+00000406  Adrenaline Junkies and Template Zombies: Understanding Patterns of Project B  0238  03.95  9780930000000  2008-03-01  0065
+          ehavior
+00000407  The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux  0912  04.38  9781120000000  2014-07-28  0232
+          , and Mac Memory
+00000408  Testing Computer Software                                                     0480  03.88  9780470000000  1999-04-26  0232
+00000409  Beginning Java EE 7                                                           0603  03.95  -------------  2013-06-26  0014
+00000410  Web Operations: Keeping the Data on Time                                      0315  04.11  9781450000000  2010-07-01  0001
+00000411  Object Design: Roles, Responsibilities, and Collaborations                    0416  03.70  9785342000000  2002-11-18  0005
+00000412  Bash Cookbook: Solutions and Examples for Bash Users                          0630  03.90  9780600000000  2007-05-31  0001
+00000413  RabbitMQ in Action                                                            0312  03.94  9781940000000  2012-05-01  0111
+00000414  How the Mind Works                                                            0660  03.97  9780390000000  1999-01-17  0223
+00000415  Pro C# 5.0 and the .Net 4.5 Framework                                         1560  04.26  9781430000000  2012-08-27  0014
+00000417  Service Design Patterns: Fundamental Design Solutions for SOAP/WSDL and REST  0321  03.71  9780320000000  2011-10-28  0005
+          ful Web Services
+00000418  Linux Command Line and Shell Scripting Bible                                  0809  04.12  9780470000000  2008-06-01  0100
+00000419  The Art of R Programming: A Tour of Statistical Software Design               0400  04.08  9781590000000  2011-10-12  0139
+00000420  Computer Security: Principles and Practice                                    0798  03.74  9780140000000  2008-07-01  0158
+00000421  C# 5.0 in a Nutshell: The Definitive Reference                                1064  04.30  9781450000000  2012-06-26  0001
+00000422  An Introduction to Programming in Go                                          0161  03.77  -------------  2012-09-03  0053
+00000423  Principles of Model Checking                                                  0975  03.72  9780260000000  2008-05-01  0129
+00000424  Essential System Administration                                               0788  03.84  9781570000000  1995-09-08  0001
+00000425  MapReduce Design Patterns: Building Effective Algorithms and Analytics for H  0230  03.91  9781450000000  2012-12-22  0001
+          adoop and Other Systems
+00000426  Real World OCaml: Functional programming for the masses                       0510  04.23  9781450000000  2013-11-22  0001
+00000427  The Latex Companion                                                           1120  04.03  9780200000000  2004-05-02  0005
+00000428  The Definitive Guide to Django: Web Development Done Right                    0447  03.86  9781590000000  2007-12-01  0014
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0345 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0014                                                                                                                   15:50:54
+
+00000429  Succeeding with Agile: Software Development Using Scrum                       0475  04.00  9780320000000  2009-10-01  0005
+00000430  Type Theory And Functional Programming                                        0372  04.20  9780200000000  1991-08-01  0005
+00000431  CSS: The Missing Manual                                                       0560  04.12  9780600000000  2009-09-01  0001
+00000432  Semantics of Programming Languages: Structures and Techniques                 ----  03.44  9780260000000  1992-09-14  0129
+00000433  What Computers Still Can't Do: A Critique of Artificial Reason                0408  04.12  9780260000000  1992-10-30  0129
+00000434  The Recursive Universe: Cosmic Complexity and the Limits of Scientific Knowl  0252  03.95  9780810000000  1985-10-01  0119
+          edge
+00000435  ML for the Working Programmer                                                 0500  03.76  9780520000000  1996-06-28  0034
+00000436  Designing With Web Standards                                                  0456  04.09  9780740000000  2003-05-14  0136
+00000437  Languages and Machines: An Introduction to the Theory of Computer Science     0654  03.56  9780320000000  2005-02-24  0157
+00000438  Object-Oriented Design Heuristics                                             0379  04.18  9780200000000  1996-04-30  0005
+00000439  802.11 Wireless Networks: The Definitive Guide                                0672  03.64  9780600000000  2005-05-02  0001
+00000440  Object-Oriented JavaScript                                                    0337  04.16  9781850000000  2008-07-24  0152
+00000441  Programming in Objective-C 2.0                                                0600  03.85  9780320000000  2008-11-01  0005
+00000442  Little Brother                                                                0382  03.93  9780770000000  2008-04-29  0212
+00000443  Physics for Game Developers                                                   0344  03.47  9780600000000  2001-11-23  0001
+00000444  Network Algorithmics: An Interdisciplinary Approach to Designing Fast Networ  0496  04.30  9780120000000  2004-12-01  0133
+          ked Devices
+00000445  Google's Pagerank and Beyond: The Science of Search Engine Rankings           0224  03.70  9780690000000  2006-05-01  0174
+00000446  Approximation Algorithms                                                      0380  04.19  9783540000000  2002-12-05  0199
+00000447  Software Systems Architecture: Working with Stakeholders Using Viewpoints an  0576  04.07  9780320000000  2005-04-01  0005
+          d Perspectives
+00000448  Operating System Principles                                                   0366  03.78  9780140000000  1973-01-01  0169
+00000449  Writing Efficient Programs                                                    0170  04.00  9780140000000  1982-01-01  0169
+00000450  HTTP: The Definitive Guide                                                    0656  04.14  9781570000000  2002-10-07  0001
+00000451  Rebel Code: Linux and the Open Source Revolution                              0344  03.90  9780740000000  2002-07-11  0024
+00000452  Computers & Typesetting, Volume A: The TeXBook                                0483  04.32  9780200000000  1986-01-11  0005
+00000453  SQL Pocket Guide                                                              0184  03.90  9780600000000  2006-04-27  0001
+00000454  Linux Device Drivers                                                          0615  04.08  9780600000000  2005-02-17  0001
+00000455  JavaScript Bible                                                              1236  03.70  9780760000000  2004-03-22  0232
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0372 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0015                                                                                                                   15:50:54
+
+00000456  Computer Algorithms: Introduction to Design and Analysis                      0600  03.53  9780200000000  1988-01-01  0005
+00000457  Object-Oriented Software Engineering                                          0552  03.79  9785343000000  1992-07-01  0005
+00000458  Pattern-Oriented Software Architecture Volume 1: A System of Patterns         0476  03.85  9780470000000  1996-08-16  0232
+00000459  Large-Scale C++ Software Design                                               0896  03.90  9780200000000  1996-07-20  0005
+00000460  Documenting Software Architectures: Views and Beyond                          0560  03.69  9780200000000  2002-10-06  0005
+00000461  Pattern Hatching: Design Patterns Applied                                     0160  03.73  9780200000000  1998-07-02  0005
+00000462  Serious Cryptography: A Practical Introduction to Modern Encryption           0312  04.25  -------------  2017-11-21  0139
+00000463  Python Tricks                                                                 0304  04.40  9781780000000  2017-10-25  0061
+00000464  Beyond Software Architecture: Creating and Sustaining Winning Solutions       0352  03.72  9780200000000  2003-02-09  0005
+00000465  The Site Reliability Workbook: Practical Ways to Implement SRE                0512  04.29  9781490000000  2018-08-04  0001
+00000466  Kubernetes: Up & Running                                                      0202  03.99  9781490000000  2016-01-31  0001
+00000467  Hit Refresh                                                                   0273  03.77  9780060000000  2017-11-15  0088
+00000468  Fundamentals of Deep Learning: Designing Next-Generation Artificial Intellig  0298  03.90  9781490000000  2015-07-22  0001
+          ence Algorithms
+00000469  Homo Deus: A Brief History of Tomorrow                                        0450  04.29  -------------  2017-02-21  0088
+00000470  From Counterculture to Cyberculture: Stewart Brand, the Whole Earth Network,  0327  03.97  9780230000000  2006-09-23  0216
+           and the Rise of Digital Utopianism
+00000471  Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tool  0355  03.88  9781120000000  2014-02-17  0232
+          s, and Obfuscation
+00000472  Storytelling with Data: A Data Visualization Guide for Business Professional  0288  04.37  9781120000000  2015-11-02  0232
+          s
+00000473  Overcomplicated: Technology at the Limits of Comprehension                    0240  03.38  9781590000000  2016-07-19  0060
+00000474  Node.Js the Right Way: Practical, Server-Side JavaScript That Scales          0148  03.86  9781940000000  2013-12-05  0167
+00000475  Probably Approximately Correct: Nature's Algorithms for Learning and Prosper  0208  03.62  9780470000000  2013-06-04  0024
+          ing in a Complex World
+00000476  SmallTalk 80 Language: The Language and Its Implementation                    0714  04.68  9780200000000  1983-03-01  0005
+00000477  CSS: The Definitive Guide                                                     0518  03.99  9780600000000  2006-11-01  0001
+00000478  Universal Principles of Design: 100 Ways to Enhance Usability, Influence Per  0216  04.13  9781590000000  2003-10-01  0183
+          ception, Increase Appeal, Make Better Design Decisions, and Teach Through De
+          sign
+
+                                                     0023 RECORDS ON THIS PAGE
+                                                     0395 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0016                                                                                                                   15:50:54
+
+00000479  Lean from the Trenches                                                        0176  04.20  9781930000000  2011-12-21  0167
+00000480  Genetic Programming: An Introduction On The Automatic Evolution Of Computer   ----  03.82  9781560000000  ----------  ----
+          Programs And Its Applications
+00000481  Graphics Programming Black Book Special Edition                               1200  04.48  9781580000000  1997-09-01  0047
+00000482  Linux System Programming: Talking Directly to the Kernel and C Library        0429  04.20  9781450000000  2013-06-05  0001
+00000483  How to Solve It by Computer                                                   0442  04.12  9780130000000  1982-07-01  0169
+00000484  The Grammar of Graphics                                                       0691  04.20  9780390000000  2005-06-01  0199
+00000485  Effective C#: 50 Specific Ways to Improve Your C#                             0307  04.01  9780320000000  2004-12-13  0005
+00000486  Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency       0256  04.01  9780770000000  2002-04-09  0057
+00000487  Software Requirements: Practical Techniques for Gathering and Managing Requi  0516  03.97  9780740000000  2003-03-08  0128
+          rements Throughout the Product Development Cycle
+00000488  Collective Intelligence in Action                                             0425  03.74  9781930000000  2008-11-04  0111
+00000489  The Hacker Crackdown: Law and Disorder on the Electronic Frontier             0336  03.74  9780550000000  1993-11-01  0021
+00000490  The Art of SQL                                                                0349  03.92  9780600000000  2006-03-01  0001
+00000491  Algorithms in C, Part 5: Graph Algorithms                                     0512  03.96  9780200000000  2001-08-26  0005
+00000492  Computability Theory                                                          0420  04.62  9781580000000  2003-11-17  0050
+00000493  Tmux: Productive Mouse-Free Development                                       0088  03.92  9781930000000  2012-02-29  0208
+00000494  Linked: How Everything Is Connected to Everything Else and What It Means for  0304  03.93  9780450000000  2003-04-29  0164
+           Business, Science, and Everyday Life
+00000495  The AWK Programming Language                                                  0224  04.25  9780200000000  1988-01-11  0157
+00000496  Inside the C++ Object Model                                                   0304  04.20  9780200000000  1996-05-13  0005
+00000497  Agile Testing: A Practical Guide for Testers and Agile Teams                  0533  03.83  9780320000000  2009-01-09  0005
+00000498  Clojure Programming                                                           0630  04.18  9781450000000  2012-04-19  0001
+00000499  Programming in Objective C                                                    0556  03.96  9780670000000  2003-12-08  0096
+00000500  Lambda-Calculus, Combinators and Functional Programming                       0192  03.00  9780520000000  2009-02-27  0034
+00000501  Causality: Models, Reasoning, and Inference                                   0400  04.18  9780520000000  2000-03-13  0034
+00000502  Why Programs Fail: A Guide to Systematic Debugging                            0400  03.91  9780120000000  2009-06-01  0133
+00000503  The Best Software Writing I: Selected and Introduced by Joel Spolsky          0305  03.84  9781590000000  2005-10-21  0014
+00000504  The Architecture of Open Source Applications, Volume II                       0390  04.05  9781110000000  2012-05-08  0107
+00000505  Head First HTML5 Programming                                                  0610  03.99  9781450000000  2011-10-18  0001
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0422 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0017                                                                                                                   15:50:54
+
+00000506  Code Craft: The Practice of Writing Excellent Code                            0610  03.96  9781590000000  2006-12-21  0139
+00000507  High Performance MySQL: Optimization, Backups, Replication & Load Balancing   0304  04.24  9780600000000  2004-04-18  0001
+00000508  Web Form Design: Filling in the Blanks                                        0226  04.04  9781930000000  2008-12-01  0184
+00000509  Antipatterns: Refactoring Software, Architectures, and Projects in Crisis     0336  03.79  9780470000000  1998-04-03  0232
+00000510  Cassandra: The Definitive Guide                                               0330  03.59  9781450000000  2010-11-29  0001
+00000511  Algorithms in C++                                                             0672  03.94  9785343000000  1992-04-30  0005
+00000512  Agile Retrospectives: Making Good Teams Great                                 0170  03.91  9780980000000  2006-08-02  0167
+00000513  The Art of Scalability: Scalable Web Architecture, Processes, and Organizati  0559  03.96  9780140000000  2009-12-01  0005
+          ons for the Modern Enterprise
+00000514  Core Python Programming                                                       1100  03.86  9780130000000  2006-09-28  0169
+00000515  Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searchin  0720  04.14  9785342000000  1997-09-27  0005
+          g
+00000516  The Art of Computer Programming, Volume 4, Fascicles 0-4                      0944  05.00  9780320000000  2009-04-01  0005
+00000517  Concepts in Programming Languages                                             0540  03.45  9780520000000  2010-07-23  0034
+00000518  Data and Computer Communications                                              0878  03.87  9780130000000  2006-08-01  0169
+00000519  The Society of Mind                                                           0336  04.01  9780670000000  1988-03-15  0190
+00000520  The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the   0400  03.76  9780740000000  2006-11-07  0190
+          Future of the Human Mind
+00000521  Data Structures and Algorithms in C++                                         0528  03.70  9780530000000  2000-06-30  0048
+00000522  Artificial Intelligence for Games (The Morgan Kaufmann Series in Interactive  0896  04.17  9780120000000  2006-06-21  0050
+           3D Technology)
+00000523  Programming in Python 3: A Complete Introduction to the Python Language       0552  03.69  9780140000000  2008-12-26  0005
+00000524  The Internet of Money                                                         0150  04.13  -------------  2016-08-29  0126
+00000525  The Art of Electronics                                                        1152  04.33  9780520000000  1989-07-28  0034
+00000526  A Pattern Language: Towns, Buildings, Construction                            1216  04.39  9780200000000  1977-08-25  0150
+00000527  Distributed Systems                                                           0582  04.09  9781540000000  2017-02-01  0052
+00000528  The Hardware Hacker: Adventures in Making and Breaking Hardware               0396  04.29  9781590000000  2017-03-09  0139
+00000529  Kotlin in Action                                                              0360  04.50  9781620000000  2016-05-23  0111
+00000530  Web Scraping with Python: Collecting Data from the Modern Web                 0256  04.14  -------------  2015-06-15  0001
+00000531  What the Dormouse Said: How the Sixties Counterculture Shaped the Personal C  0310  03.81  9780140000000  2006-02-28  0160
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0448 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0018                                                                                                                   15:50:54
+
+          omputer Industry
+00000532  Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley           0528  03.72  9780060000000  2016-06-28  0088
+00000533  Hello Ruby: Adventures in Coding                                              0112  03.90  9781250000000  2015-10-06  0075
+00000534  Zero Bugs and Program Faster                                                  0182  03.71  9781000000000  2016-01-01  0102
+00000535  Steal This Computer Book 4.0 :What They Won't Tell You About the Internet 4e  0376  03.66  9781590000000  2006-05-11  0139
+00000536  Software Architecture Patterns                                                0047  03.69  -------------  2015-03-23  0001
+00000537  Elixir in Action, Second Edition                                              0384  04.50  -------------  2019-01-23  0111
+00000538  Clojure for the Brave and True                                                0352  04.27  -------------  ----------  ----
+00000539  The Robert C. Martin Clean Code Collection (Collection)                       0699  04.51  9780130000000  2011-11-10  0169
+00000540  The Inevitable: Understanding the 12 Technological Forces That Will Shape Ou  0336  03.96  -------------  2016-06-07  0220
+          r Future
+00000541  Database Systems: A Practical Approach to Design, Implementation and Managem  1424  03.67  9780320000000  2004-05-24  0005
+          ent
+00000542  Mastering Emacs                                                               0280  04.16  -------------  2015-05-23  ----
+00000543  Ada Byron Lovelace and the Thinking Machine                                   0040  04.19  9781940000000  2015-10-13  0054
+00000544  Structured Programming                                                        0234  04.23  9780120000000  1972-03-23  0004
+00000545  Amazon Web Services in Action                                                 0424  03.81  9781620000000  2015-10-17  0111
+00000546  Free Software, Free Society: Selected Essays                                  0224  04.13  9781880000000  2002-10-01  0079
+00000547  Reactive Messaging Patterns with the Actor Model: Applications and Integrati  0480  03.56  9780130000000  2015-08-17  0005
+          on in Scala and Akka
+00000548  Management 3.0: Leading Agile Developers, Developing Agile Leaders            0451  04.14  9780320000000  2010-12-28  0005
+00000549  Modern C++ Programming with Test-Driven Development: Code Better, Sleep Bett  0380  04.43  9781940000000  2013-10-20  0167
+          er
+00000550  Java: A Beginner's Guide (Beginner's Guide)                                   ----  03.96  9780070000000  2005-04-01  0119
+00000551  Program or Be Programmed: Ten Commands for a Digital Age                      0152  03.69  -------------  2010-11-01  0143
+00000552  Data Structure and Algorithmic Thinking with Python                           0468  04.10  9788190000000  2015-01-29  0035
+00000553  Theory of Recursive Functions and Effective Computability                     0506  04.00  9780260000000  1987-04-22  0129
+00000554  Dataclysm: Who We Are (When We Think No One's Looking)                        0304  03.74  9780390000000  2014-09-09  0056
+00000555  Linux Bible                                                                   0864  04.30  9781120000000  2012-09-11  0232
+00000556  Java:  The Complete Reference                                                 1000  04.15  9780070000000  2011-02-07  0119
+
+                                                     0025 RECORDS ON THIS PAGE
+                                                     0473 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0019                                                                                                                   15:50:54
+
+00000558  Black Hat Python: Python Programming for Hackers and Pentesters               0171  04.07  9781590000000  2014-12-14  0139
+00000559  Build Your Own Lisp                                                           ----  04.22  -------------  2014-03-23  ----
+00000560  Ruby Under a Microscope                                                       0272  04.37  -------------  2012-03-23  ----
+00000561  A Bug Hunter's Diary: A Guided Tour Through the Wilds of Software Security    0208  03.92  9781590000000  2011-11-11  0139
+00000562  Advanced Concepts in Operating Systems                                        0448  03.96  9780070000000  1994-01-01  0119
+00000563  A History of Modern Computing                                                 0459  03.96  9780260000000  2003-04-08  0129
+00000564  Machine Learning with R                                                       0396  04.22  9781310000000  2014-06-13  0152
+00000565  The Hacker Playbook: Practical Guide To Penetration Testing                   0294  03.99  -------------  2014-03-20  ----
+00000566  Intuition Pumps And Other Tools for Thinking                                  0496  03.79  9780390000000  2014-05-05  0223
+00000567  Flash Boys: A Wall Street Revolt                                              0320  04.14  9780390000000  2015-03-23  0223
+00000568  The Search: How Google and Its Rivals Rewrote the Rules of Business and Tran  0320  03.83  9781590000000  2005-09-08  0166
+          sformed Our Culture
+00000569  Introduction to Reliable and Secure Distributed Programming                   0367  04.41  9783640000000  2011-02-12  0199
+00000570  Reinventing Discovery: The New Era of Networked Science                       0264  03.92  9780690000000  2011-10-23  0174
+00000571  Hacking the Xbox: An Introduction to Reverse Engineering                      0288  04.07  9781590000000  2003-07-01  0139
+00000572  R Graphics Cookbook: Practical Recipes for Visualizing Data                   0416  04.24  9781450000000  2012-12-06  0001
+00000573  21st Century C: C Tips from the New School                                    0296  03.81  9781450000000  2012-11-05  0001
+00000574  MongoDB: The Definitive Guide                                                 0216  03.85  9781450000000  2010-09-24  0001
+00000595  Foundations of Computer Science                                               0624  03.95  9781840000000  2007-12-01  0210
+00000596  Programming from the Ground Up                                                0332  04.12  9780980000000  2004-07-01  0023
+00000597  Confident Ruby                                                                0296  04.40  -------------  2012-06-05  ----
+00000598  Agile Software Development with Scrum                                         0158  03.82  9780130000000  2001-10-21  0157
+00000628  The Quick Python Book                                                         0367  03.82  9781940000000  2010-01-22  0111
+00000629  Kanban: Successful Evolutionary Change for Your Technology Business           0262  03.97  9780980000000  2010-04-07  0029
+00000630  Team Geek: A Software Developer's Guide to Working Well with Others           0167  03.97  9781450000000  2012-07-21  0001
+00000631  Data Structures and Algorithm Analysis in Java                                0576  03.63  9780320000000  2006-03-03  0005
+00000632  Fundamentals of Computer Graphics                                             0392  03.67  9781570000000  2002-06-15  0003
+00000633  Rework                                                                        0279  03.94  9780310000000  2010-03-09  0057
+00000634  Conceptual Mathematics: A First Introduction To Categories                    ----  04.32  9780520000000  1997-11-28  0034
+00000635  Object-Oriented Programming in C++                                            1012  04.11  9780670000000  2001-12-29  0186
+
+                                                     0029 RECORDS ON THIS PAGE
+                                                     0502 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0020                                                                                                                   15:50:54
+
+00000636  Design for Hackers: Reverse Engineering Beauty                                0352  03.74  9781120000000  2011-08-29  0232
+00000637  The Sciences of the Artificial                                                0248  04.23  9780260000000  1996-09-26  0129
+00000638  Certified Programming with Dependent Types: A Pragmatic Introduction to the   0424  04.09  9780260000000  2013-12-06  0129
+          Coq Proof Assistant
+00000639  Test Driven: Practical TDD and Acceptance TDD for Java Developers             0513  03.83  9781930000000  2007-10-19  0111
+00000640  Python Pocket Reference                                                       0148  04.00  9780600000000  2005-03-06  0001
+00000641  SCJP Sun Certified Programmer for Java 6 Study Guide                          0851  04.28  9780070000000  2008-06-24  0119
+00000642  Computer Organization                                                         0832  03.67  9780070000000  2001-08-02  0119
+00000643  Refactoring Databases: Evolutionary Database Design                           0384  03.70  9780320000000  2006-03-03  0005
+00000644  jQuery: Novice to Ninja                                                       0407  03.91  9780980000000  2010-03-07  0193
+00000645  Thinking in C++, Volume One: Introduction to Standard C++                     0840  04.12    76092006565  2000-03-25  0157
+00000646  Learning Java                                                                 0954  03.60  9780600000000  2005-05-30  0001
+00000647  Managing Humans: Biting and Humorous Tales of a Software Engineering Manager  0209  03.97  9781590000000  2007-06-01  0014
+00000648  Programming the Semantic Web                                                  0302  03.69  9780600000000  2009-07-21  0001
+00000649  CSS3 For Web Designers                                                        0125  04.06  -------------  2010-11-16  0002
+00000650  Data Communications and Networking (McGraw-Hill Forouzan Networking)          1168  03.90  9780070000000  2006-02-09  0119
+00000651  SQL and Relational Theory: How to Write Accurate SQL Code                     0428  03.75  9780600000000  2009-01-30  0001
+00000652  The Art of Computer Programming, Volume 4, Fascicle 4: Generating All Trees-  0120  04.50  9780320000000  2006-02-01  0005
+          -History of Combinatorial Generation
+00000653  How Would You Move Mount Fuji? Microsoft's Cult of the Puzzle--How the World  0288  03.57  9780320000000  2004-04-02  0106
+          's Smartest Companies Select the Most Creative Thinkers
+00000654  The Road Ahead                                                                0286  03.69  9780670000000  1995-11-21  0220
+00000655  Being Geek: The Software Developer's Career Handbook                          0318  03.70  9780600000000  2010-08-10  0001
+00000656  The Art of Software Testing                                                   0256  03.69  9780470000000  2004-06-21  0232
+00000657  The RSpec Book                                                                0426  03.87  9781930000000  2010-12-22  0167
+00000658  The Implementation (TCP/IP Illustrated, Volume 2)                             1174  04.21  9780200000000  1995-02-10  0005
+00000659  Communicating Sequential Processes (Prentice Hall International Series in Co  0256  04.33  9780130000000  1985-04-01  0169
+          mputing Science)
+00000660  Interactive Theorem Proving and Program Development: Coq Art: The Calculus o  0472  03.86  9783540000000  2004-05-14  0199
+          f Inductive Constructions
+
+                                                     0025 RECORDS ON THIS PAGE
+                                                     0527 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0021                                                                                                                   15:50:54
+
+00000661  Garbage Collection: Algorithms for Automatic Dynamic Memory Management        0404  04.13  9780470000000  1996-08-16  0232
+00000662  Database Systems: Design, Implementation, and Management                      0696  03.56  9781420000000  2006-01-27  0048
+00000663  Learning GNU Emacs                                                            0536  03.63  9780600000000  2004-12-20  0001
+00000664  Essential System Administration: Tools and Techniques for Linux and Unix Adm  1176  03.96  9780600000000  2002-09-02  0001
+          inistration
+00000665  TCP/IP Network Administration                                                 0748  03.86  9780600000000  2002-04-11  0001
+00000666  PHP & MySQL For Dummies                                                       0436  03.54  9780470000000  2006-12-01  0232
+00000667  The Art of Computer Programming, Volume 1, Fascicle 1: MMIX -- A RISC Comput  0134  04.19  9780200000000  2005-02-24  0005
+          er for the New Millennium
+00000668  Exceptional C++: 47 Engineering Puzzles, Programming Problems, and Solutions  0208  04.18  9780200000000  1999-11-28  0005
+00000669  The Little Typer                                                              0424  04.35  9780260000000  2018-09-18  0204
+00000670  Mathematics for Computer Science                                              1048  03.91  -------------  2010-09-08  0129
+00000671  Cryptography: Theory and Practice (Discrete Mathematics and Its Applications  0593  03.71  9781580000000  2005-11-01  0050
+          )
+00000672  Introduction to Artificial Intelligence                                       0454  03.75  9780490000000  1985-06-01  0068
+00000673  Software Project Survival Guide                                               0306  03.82  9781570000000  1997-10-22  0128
+00000674  Speaking JavaScript                                                           0460  04.37  9781450000000  2014-03-24  0001
+00000675  Prediction Machines: The Simple Economics of Artificial Intelligence          0272  04.00  -------------  2018-04-17  0091
+00000676  Introduction to Linear Algebra                                                0568  04.20  9780960000000  2003-01-01  0229
+00000677  Girls Who Code: Learn to Code and Change the World                            0176  04.10  9780750000000  2017-08-24  0221
+00000678  Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxi  0240  04.16  9780390000000  2018-10-16  0223
+          c Tech
+00000679  Think Java: How to Think Like a Computer Scientist                            0248  03.66  -------------  2012-03-23  0085
+00000680  Quantum Computer Science                                                      0220  03.59  9780520000000  2007-08-01  0034
+00000681  Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable  0149  03.53  9781490000000  2018-03-05  0001
+           Services
+00000682  UNIX in a Nutshell: A Desktop Quick Reference - Covers GNU/Linux, Mac OS X,   0908  03.90  9780600000000  2005-11-02  0001
+          and Solaris
+00000683  Envisioning Information                                                       0126  04.22  9780960000000  1992-12-23  0084
+00000684  Programming Collective Intelligence: Building Smart Web 2.0 Applications      0362  04.07  9780600000000  2007-08-23  0001
+
+                                                     0024 RECORDS ON THIS PAGE
+                                                     0551 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0022                                                                                                                   15:50:54
+
+00000685  Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction         0336  04.41  9780690000000  2016-07-19  0174
+00000686  Intermediate Perl                                                             0256  03.97  9780600000000  2006-03-18  0001
+00000687  Head First Python                                                             0494  03.77  9781450000000  2010-12-07  0001
+00000688  Type-Driven Development with Idris                                            0453  04.51  9781620000000  2017-04-07  0111
+00000689  Functional and Reactive Domain Modeling                                       0320  04.19  9781620000000  2016-08-28  0111
+00000690  Future Crimes: Everything Is Connected, Everyone Is Vulnerable, and What We   0393  03.94  9780390000000  2015-02-24  0067
+          Can Do About It
+00000691  Blockchain: Blueprint for a New Economy                                       0152  03.31  -------------  2015-01-24  0001
+00000692  Metaprogramming Ruby 2: Program Like the Ruby Pros                            0280  04.47  9781940000000  2014-08-18  0167
+00000693  Computing: A Concise History                                                  0199  03.63  9780260000000  2012-06-15  0129
+00000694  If Hemingway Wrote JavaScript                                                 0192  04.17  9781590000000  2014-10-23  0139
+00000695  Just Enough Software Architecture: A Risk-Driven Approach                     0360  03.53  9780980000000  2010-09-01  0116
+00000696  Software Architecture for Developers: Volume 1 - Technical leadership and th  0133  03.84  -------------  2016-11-18  0105
+          e balance with agility
+00000697  High Performance Python: Practical Performant Programming for Humans          0370  04.17  9781450000000  2014-08-25  0001
+00000698  Introduction to Computing Systems: From Bits & Gates to C & Beyond            0656  03.77  9780070000000  2003-08-05  0119
+00000699  Learning Agile: Understanding Scrum, XP, Lean, and Kanban                     0400  04.12  9781450000000  2014-06-22  0001
+00000700  Computability, Complexity, and Languages: Fundamentals of Theoretical Comput  0609  03.96  9780120000000  1994-02-17  0133
+          er Science (Computer Science and Scientific Computing)
+00000701  Reactive Design Patterns                                                      0325  03.54  9781620000000  2014-03-28  0111
+00000702  Counter Hack Reloaded: A Step-By-Step Guide to Computer Attacks and Effectiv  0748  03.96  9780130000000  2005-12-23  0169
+          e Defenses
+00000703  Android Programming: The Big Nerd Ranch Guide                                 0602  04.31  9780320000000  2013-04-07  0027
+00000704  Data Structures and Algorithms in Python                                      0768  04.08  9781120000000  2013-03-18  0232
+00000705  The Basics of Hacking and Penetration Testing: Ethical Hacking and Penetrati  0159  03.91  9781600000000  2011-08-04  0202
+          on Testing Made Easy
+00000706  Getting Started with OAuth 2.0                                                0082  03.50  9781450000000  2012-02-29  0001
+00000707  Parallel and Concurrent Programming in Haskell: Techniques for Multicore and  0322  04.54  9781450000000  2013-08-15  0001
+           Multithreaded Programming
+00000708  In Pursuit of the Traveling Salesman: Mathematics at the Limits of Computati  0228  03.88  9781691152705  2012-01-16  0174
+
+                                                     0024 RECORDS ON THIS PAGE
+                                                     0575 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0023                                                                                                                   15:50:54
+
+          on
+00000709  ggplot2: Elegant Graphics for Data Analysis                                   0212  04.31  9780390000000  2009-08-01  0199
+00000710  Distributed Operating Systems                                                 0632  03.96  9780130000000  1994-09-04  0157
+00000711  SciPy and NumPy: An Overview for Developers                                   0082  02.96  9781450000000  2012-11-22  0001
+00000712  Scala in Depth                                                                0276  03.93  -------------  2012-05-23  0111
+00000713  Implementation Patterns                                                       0157  03.62  9780320000000  2007-10-01  0005
+00000714  Networks, Crowds, and Markets: Reasoning about a Highly Connected World       0727  04.17  9780520000000  2010-07-31  0034
+00000715  Cypherpunks: Freedom and the Future of the Internet                           0192  03.70  9781940000000  2012-11-23  0143
+00000716  Selected Writings on Computing: A Personal Perspective                        0362  04.25  9780390000000  1982-10-25  0199
+00000717  The Practice of System and Network Administration                             1011  04.39  9780320000000  2007-06-01  0005
+00000718  Tubes: A Journey to the Center of the Internet                                0294  03.50  9780060000000  2012-05-23  0070
+00000719  Getting Started with Arduino                                                  0128  03.78  9780600000000  2009-03-31  0110
+00000720  The Object-Oriented Thought Process                                           0330  03.68  9780670000000  2008-08-01  0005
+00000721  Foundations of Programming - Building Better Software                         0079  03.81  -------------  2008-03-23  ----
+00000722  Joe Celko's SQL for Smarties: Advanced SQL Programming                        0840  03.95  9780120000000  2005-08-01  0133
+00000723  Practical C Programming                                                       0456  03.68  9781570000000  1997-08-11  0001
+00000724  Java in a Nutshell                                                            1224  03.81  9780600000000  2005-03-25  0001
+00000725  Parsing Techniques: A Practical Guide                                         0662  04.20  9780390000000  2008-01-01  0199
+00000726  The Art of Computer Programming, Volume 4, Fascicle 2: Generating All Tuples  0127  04.70  9780200000000  2005-02-24  0005
+           and Permutations
+00000727  The Art of Computer Programming, Volume 4, Fascicle 1: Bitwise Tricks & Tech  0260  04.73  9780320000000  2009-03-01  0005
+          niques; Binary Decision Diagrams
+00000728  The Old New Thing: Practical Development Throughout the Evolution of Windows  0517  03.92  9780320000000  2006-12-01  0005
+00000729  Inside the Machine                                                            0320  04.13  9781590000000  2006-12-08  0139
+00000730  Python in a Nutshell                                                          0695  03.88  9780600000000  2006-07-24  0001
+00000731  Head First Software Development                                               0498  03.93  9780600000000  2007-12-27  0001
+00000732  Programming Game AI by Example                                                0495  04.07  9781560000000  2004-09-30  0101
+00000733  Lex & Yacc                                                                    0388  03.68  9781570000000  1992-10-08  0001
+00000734  Implementing Lean Software Development: From Concept to Cash                  0276  04.16  9780320000000  2006-10-01  0005
+00000735  Head First Servlets and JSP: Passing the Sun Certified Web Component Develop  0888  04.16  9780600000000  2004-08-30  0001
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0602 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0024                                                                                                                   15:50:54
+
+          er Exam
+00000736  Distributed Algorithms                                                        0904  04.19  9781560000000  1996-03-15  0133
+00000737  Why's (Poignant) Guide to Ruby                                                0176  04.05  -------------  2007-03-23  0018
+00000738  Perl Best Practices: Standards and Styles for Developing Maintainable Code    0517  04.27  9780600000000  2005-07-22  0001
+00000739  HTML & XHTML: The Definitive Guide                                            0680  03.91  9780600000000  2006-10-24  0001
+00000740  Lisp                                                                          0611  03.98  9780200000000  1989-01-11  0005
+00000741  Broad Band: The Untold Story of the Women Who Made the Internet               0288  04.00  9780740000000  2018-03-06  0165
+00000742  Gray Hat Hacking: The Ethical Hacker's Handbook                               0434  04.09  9780070000000  2004-12-01  0119
+00000743  Machine Learning                                                              0224  03.62  -------------  2016-09-30  0204
+00000744  Once Upon an Algorithm: How Stories Explain Computing                         0336  03.81  9780260000000  2017-08-11  0129
+00000745  Feynman And Computation                                                       0462  04.42  9780810000000  2002-06-27  0230
+00000746  Your Code As a Crime Scene: Use Forensic Techniques to Arrest Defects, Bottl  0190  03.59  9781680000000  2014-05-23  0167
+          enecks, and Bad Design in Your Programs
+00000747  Python Data Science Handbook: Tools and Techniques for Developers             0500  04.28  9781490000000  2016-12-25  0001
+00000748  Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun              0287  04.33  9781940000000  2013-03-23  0208
+00000749  Spam Nation: The Inside Story of Organized Cybercrime-from Global Epidemic t  0256  03.72  9781400000000  2014-11-18  0196
+          o Your Front Door
+00000750  C Programming Absolute Beginner's Guide                                       0352  04.24  -------------  2013-08-02  0179
+00000751  Assembly Language: Step-By-Step                                               0448  04.22  9780470000000  1992-10-06  0232
+00000752  The Little MLer                                                               0198  03.91  9780260000000  1998-01-05  0129
+00000753  Lambda-Calculus and Combinators: An Introduction                              0345  03.80  9780520000000  2008-07-01  0034
+00000754  More Programming Pearls: Confessions of a Coder                               0224  04.03  9780200000000  1988-01-11  0005
+00000755  But How Do It Know? - The Basic Principles of Computers for Everyone          0221  04.49  9780620000000  2009-07-04  0098
+00000756  Learning Spark                                                                0300  03.87  9781450000000  2014-07-22  0001
+00000757  Java Performance: The Definitive Guide                                        0500  04.38  9781450000000  2014-05-22  0001
+00000758  Red Team Field Manual (RTFM)                                                  0096  04.22  9781490000000  2014-02-11  0052
+00000759  Systems Performance: Enterprise and the Cloud                                 0735  04.47  9780130000000  2013-10-26  0169
+00000760  Learning Javascript Design Patterns                                           0227  03.84  -------------  2012-05-01  0001
+00000761  SQL Performance Explained                                                     0204  04.34  9783950000000  2012-07-30  0115
+00000762  Python 3 Object Oriented Programming                                          0388  04.01  9781850000000  2010-07-19  0152
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0629 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0025                                                                                                                   15:50:54
+
+00000763  The Google Resume: How to Prepare for a Career and Land a Job at Apple, Micr  0280  03.77  9780470000000  2011-03-01  0100
+          osoft, Google, or Any Top Tech Company
+00000764  C++ Coding Standards: 101 Rules, Guidelines, and Best Practices               0240  04.20  9776092018117  2004-11-01  0005
+00000765  Windows® Internals, Part 2: Covering Windows Server® 2008 R2 and Windows 7  0674  04.54  9780740000000  2012-10-02  0128
+00000766  The Healthy Programmer                                                        0220  03.73  9781940000000  2013-03-23  0208
+00000767  Practical Cryptography                                                        0385  04.18  9780470000000  2003-04-17  0232
+00000768  Continuous Integration: Improving Software Quality and Reducing Risk          0283  03.79  9780320000000  2007-07-09  0005
+00000769  Sams Teach Yourself SQL in 10 Minutes                                         0242  04.02  9780670000000  2004-03-01  0186
+00000770  Data Structures and Algorithm Analysis in C                                   0528  03.80  9780200000000  1996-09-19  0157
+00000771  The Master Switch: The Rise and Fall of Information Empires                   0384  03.84  9780310000000  2010-11-02  0103
+00000772  Bayesian Reasoning and Machine Learning                                       0697  04.11  9780520000000  2012-04-01  0034
+00000773  Computer Science Illuminated                                                  0636  03.55  9780760000000  2006-12-01  0101
+00000774  Functional JavaScript: Introducing Functional Programming with Underscore.js  0260  04.07  9781450000000  2013-06-17  0001
+00000775  We Are Anonymous: Inside the Hacker World of LulzSec, Anonymous, and the Glo  0512  03.94  9780320000000  2012-06-05  0106
+          bal Cyber Insurgency
+00000776  A First Course in Logic: An Introduction to Model Theory, Proof Theory, Comp  0431  04.31  9780200000000  2004-09-01  0148
+          utability, and Complexity
+00000777  Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript     0240  04.32  9780320000000  2012-12-06  0005
+00000778  Fire in the Valley: The Making of the Personal Computer                       0463  04.11  9780070000000  1999-11-29  0119
+00000779  Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Softw  0800  04.43  9781590000000  2012-02-29  0139
+          are
+00000780  Objective-C Programming: The Big Nerd Ranch Guide                             0263  04.17  9780320000000  2011-10-18  0005
+00000781  The Art Of Prolog: Advanced Programming Techniques                            0437  03.79  9780260000000  1986-05-01  0129
+00000782  Think Stats                                                                   0138  03.66  9781450000000  2011-07-22  0001
+00000783  Data and Reality                                                              ----  04.05  9781590000000  ----------  ----
+00000784  Learning SQL                                                                  0289  03.86  9780600000000  2005-09-01  0001
+00000785  GA�del's Proof                                                              0129  04.14  9780810000000  2001-10-01  0137
+00000786  Essentials of Computer Organization and Architecture                          0673  03.20  9780760000000  2003-01-01  0101
+00000787  jQuery in Action                                                              0347  03.94  9781930000000  2008-02-01  0111
+00000788  The Art and Science of Java                                                   0587  03.99  9780320000000  2007-02-01  0157
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0655 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0026                                                                                                                   15:50:54
+
+00000789  Death March                                                                   0230  03.83  9780130000000  2003-11-16  0169
+00000790  Programming Scala: Scalability = Functional Programming + Objects             0448  03.72  9780600000000  2009-09-22  0001
+00000791  Compiler Construction: Principles and Practice                                0592  03.90  9780530000000  1997-01-24  0039
+00000792  Programming Clojure                                                           0304  03.82  9781930000000  2009-06-04  0167
+00000793  OpenGL SuperBible: Comprehensive Tutorial and Reference                       1205  03.99  9780320000000  2007-06-01  0005
+00000794  Thinking Forth                                                                0316  03.91  9780980000000  2004-12-27  0176
+00000795  Linkers and Loaders                                                           0256  03.96  9781560000000  1999-10-25  0133
+00000796  Processing: A Programming Handbook for Visual Designers and Artists           0710  04.15  9780260000000  2007-08-17  0129
+00000797  Designing Web Usability                                                       0432  03.80  9781560000000  2000-01-01  0136
+00000798  The Scheme Programming Language                                               0295  03.94  9780260000000  2003-09-26  0129
+00000799  Python Essential Reference (Developer's Library)                              0648  04.21  9780670000000  2006-03-02  0186
+00000800  C Programming: A Modern Approach                                              0832  04.26  9780390000000  2008-04-01  0223
+00000801  Modern Compiler Implementation in Java                                        0512  03.47  9780520000000  2015-01-28  0034
+00000802  WindowsA�® Internals (PRO-Developer)                                       1232  04.46  9780740000000  2009-06-17  0128
+00000803  Designing Interfaces: Patterns for Effective Interaction Design               0352  03.82  9780600000000  2005-11-28  0001
+00000804  Theoretische Informatik - kurzgefasst                                         0198  03.67  9783830000000  2001-03-01  0198
+00000805  The Manga Guide to Databases                                                  0224  04.05  9781590000000  2008-12-01  0139
+00000806  Randomized Algorithms                                                         0496  04.06  9780520000000  1995-08-01  0034
+00000807  The Haskell School of Expression: Learning Functional Programming Through Mu  0382  03.72  9780520000000  2000-02-01  0034
+          ltimedia
+00000808  Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usa  0161  04.11  9780320000000  2009-12-01  0136
+          bility Problems
+00000809  Artificial Intelligence: Structures and Strategies for Complex Problem Solvi  0928  03.69  9780320000000  2004-10-21  0005
+          ng
+00000810  A Madman Dreams of Turing Machines                                            0230  03.67  9781400000000  2006-08-22  0011
+00000811  High Performance JavaScript                                                   0242  04.05  9780600000000  2010-03-30  0239
+00000812  Principles of Computer System Design: An Introduction                         0526  03.70  9780120000000  2009-07-07  0133
+00000813  Algorithmic Game Theory                                                       0776  04.19  9780520000000  2013-12-06  0034
+00000814  Neural Networks: A Comprehensive Foundation                                   0842  03.89  9780130000000  1998-07-06  0169
+00000815  Running Linux                                                                 0749  03.70  9781570000000  1999-08-11  0001
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0682 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0027                                                                                                                   15:50:54
+
+00000816  UNIX Network Programming, Volume 1: The Sockets Networking API                0991  04.35  9776092025917  2003-11-24  0005
+00000817  The Java Programming Language                                                 0891  03.80  9780320000000  2005-08-25  0005
+00000818  Computer Power and Human Reason: From Judgment to Calculation                 0300  04.29  9780720000000  1976-01-01  0226
+00000819  Programming Challenges: The Programming Contest Training Manual               0364  04.04  9780390000000  2003-05-12  0199
+00000820  How to Solve It: Modern Heuristics                                            0554  03.98  9783540000000  2004-09-21  0199
+00000821  Writing Effective Use Cases                                                   0304  03.95  9780200000000  2000-10-15  0005
+00000822  Concurrent Programming in Javai?1: Design Principles and Pattern              0432  04.18  9780200000000  1999-11-04  0005
+00000823  Hello World: Being Human in the Age of Algorithms                             0246  04.14  9780390000000  2018-09-18  0223
+00000824  A Mind at Play: How Claude Shannon Invented the Information Age               0384  04.15  9781480000000  2017-07-18  0190
+00000825  More Effective C++                                                            0336  04.33  9785343000000  1996-01-08  0005
+00000826  The Little Prover                                                             0248  03.96  9780260000000  2015-07-10  0129
+00000827  The Dark Net: Inside the Digital Underworld                                   0320  03.66  9780430000000  2014-08-21  0234
+00000828  Physically Based Rendering: From Theory to Implementation                     1167  04.58  9780120000000  2010-07-12  0133
+00000829  Competitive Programming 3                                                     0447  04.62  -------------  2013-06-07  0107
+00000830  Coding the Matrix: Linear Algebra through Computer Science Applications       0528  04.32  9780620000000  2013-07-26  0051
+00000831  Zero to One: Notes on Startups, or How to Build the Future                    0195  04.16  9780800000000  2014-09-16  0057
+00000832  Readings in Database Systems                                                  0685  04.71  9781560000000  1998-01-01  0133
+00000833  The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling        0464  04.12  9780470000000  2002-04-26  0100
+00000834  Python Crash Course: A Hands-On, Project-Based Introduction to Programming    0560  04.25  9781590000000  2015-12-03  0139
+00000835  Data Smart: Using Data Science to Transform Information into Insight          0409  04.17  9781120000000  2013-10-31  0100
+00000836  The Principles of Object-Oriented JavaScript                                  0120  04.38  -------------  2014-02-07  0139
+00000837  The UNIX Hater's Handbook: The Best of UNIX-Haters On-line Mailing Reveals W  0329  03.68  9781570000000  1994-06-01  0095
+          hy UNIX Must Die,
+00000838  Thinking in Systems: A Primer                                                 0240  04.26  9781600000000  2008-12-03  0042
+00000839  The Art of Prolog: Advanced Programming Techniques                            0552  03.91  9780260000000  1994-03-10  0129
+00000840  Tcp/IP Illustrated, Volume 1: The Protocols                                   1017  04.60  9780320000000  2011-11-25  0005
+00000841  Realm of Racket: Learn to Program, One Game at a Time,                        0312  03.69  9781590000000  2013-06-25  0139
+00000842  Metamagical Themas: Questing for the Essence of Mind and Pattern              0880  04.18  9780470000000  1996-04-05  0024
+00000843  Hadoop: The Definitive Guide                                                  0528  03.94  9780600000000  2009-06-12  0001
+00000844  Complexity: A Guided Tour                                                     0349  04.06  9780200000000  2009-04-01  0150
+
+                                                     0029 RECORDS ON THIS PAGE
+                                                     0711 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0028                                                                                                                   15:50:54
+
+00000845  Principles of Compiler Design                                                 0604  03.97  9780200000000  1977-03-23  0005
+00000846  Version Control with Git                                                      0297  03.89  9780600000000  2009-06-11  0001
+00000847  Mindstorms: Children, Computers, And Powerful Ideas                           0252  04.30  9780470000000  1993-08-04  0024
+00000848  Specification by Example                                                      0249  04.04  9781620000000  2011-06-03  0111
+00000849  Algorithmic Puzzles                                                           0257  04.11  9780200000000  2011-10-14  0150
+00000850  You Are Not a Gadget                                                          0221  03.54  9780310000000  2010-01-12  0011
+00000851  Smalltalk Best Practice Patterns                                              0224  04.18  9780130000000  1996-10-13  0169
+00000852  Mathematics for 3D Game Programming and Computer Graphics                     0545  04.05  8581030000000  2011-06-02  0039
+00000853  Code Simplicity: The Fundamentals of Software                                 0084  03.62  9781450000000  2012-04-05  0001
+00000854  Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable   0480  04.21  9780320000000  2008-10-22  0005
+          .NET Libraries
+00000855  Logicomix: An Epic Search for Truth                                           0352  04.03  9781600000000  2009-10-05  0028
+00000856  Introduction to Modern Cryptography: Principles and Protocols                 0534  04.30  9781580000000  2007-08-31  0050
+00000857  Modern Compiler Implementation in ML                                          0552  03.91  9780520000000  2004-05-26  0034
+00000858  Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Softw  0192  04.22  9780810000000  2006-11-05  0012
+          are and Hardware Problems
+00000859  Metaprogramming Ruby                                                          0296  04.33  9781930000000  2010-02-22  0167
+00000860  DNS and BIND                                                                  0642  03.96  9780600000000  2006-06-02  0001
+00000861  Social Engineering: The Art of Human Hacking                                  0382  03.82  9780470000000  2010-12-21  0232
+00000862  Modern Compiler Implementation in C                                           0556  03.60  9780520000000  2004-05-26  0034
+00000863  Data Analysis with Open Source Tools: A Hands-On Guide for Programmers and D  0509  04.05  9780600000000  2010-11-28  0001
+          ata Scientists
+00000864  The Art of Computer Programming, Volume 4, Fascicle 3: Generating All Combin  0160  04.50  9780200000000  2005-07-01  0005
+          ations and Partitions
+00000865  The Agile Samurai: How Agile Masters Deliver Great Software                   0267  03.93  -------------  2010-03-23  0208
+00000866  Handbook of Applied Cryptography                                              0810  04.03  9780850000000  1996-10-16  0050
+00000867  Algorithmics: The Spirit of Computing                                         0480  03.94  9780200000000  1992-01-23  0005
+00000868  Haskell: The Craft of Functional Programming                                  0487  03.53  9780200000000  1999-03-29  0005
+00000869  Windows® Internals, Part 1: Covering Windows Server® 2008 R2 and Windows 7  0754  04.43  9780740000000  2012-04-05  0128
+00000870  Data Structures and Algorithms in Java                                        0800  04.09  9780670000000  2002-11-16  0186
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0737 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0029                                                                                                                   15:50:54
+
+00000871  The Man Who Knew Too Much: Alan Turing and the Invention of the Computer      0336  03.48  9780390000000  2006-11-17  0223
+00000872  Free as in Freedom: Richard Stallman's Crusade for Free Software              0240  03.81  9780600000000  2002-03-08  0001
+00000873  The Design and Implementation of the FreeBSD Operating System                 0720  04.31  9780200000000  2004-08-01  0005
+00000874  Eloquent Ruby                                                                 0413  04.35  9780320000000  2011-02-21  0005
+00000875  Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age             0480  04.13  9780890000000  2000-04-05  0088
+00000876  LISP in Small Pieces                                                          0514  04.28  9780520000000  2003-10-18  0034
+00000877  User Stories Applied: For Agile Software Development                          0268  03.88  9780320000000  2004-03-11  0005
+00000878  REST in Practice: Hypermedia and Systems Architecture                         0448  03.82  9780600000000  2010-09-24  0001
+00000879  Programming Languages: Application and Interpretation                         0360  04.09  -------------  ----------  ----
+00000880  Agile Estimating and Planning                                                 0330  04.09  9780130000000  2005-11-01  0169
+00000881  Neural Networks for Pattern Recognition                                       0504  04.07  9780200000000  1996-01-18  0043
+00000882  iWoz: Computer Geek to Cult Icon: How I Invented the Personal Computer, Co-F  0313  03.85  9780390000000  2007-10-17  0223
+          ounded Apple, and Had Fun Doing It
+00000883  Database Management Systems                                                   1104  03.76  9780070000000  2002-08-14  0119
+00000884  97 Things Every Software Architect Should Know: Collective Wisdom from the E  0222  03.60  9780600000000  2009-02-12  0001
+          xperts
+00000885  Snow Crash                                                                    0480  04.03  -------------  2003-08-26  0197
+00000886  ANSI Common Lisp                                                              0444  04.12  9780130000000  1996-03-23  0157
+00000887  An Introduction to Genetic Algorithms                                         0221  03.75  9780260000000  1998-03-02  0032
+00000888  Writing Solid Code                                                            0288  04.09  9781560000000  1993-01-01  0128
+00000889  Writing Secure Code                                                           0768  04.01  9780740000000  2002-12-14  0128
+00000890  The Nature of Code                                                            0520  04.60  9780990000000  2012-12-13  0205
+00000891  Computer System Architecture                                                  0544  03.80  9780130000000  1992-10-29  0169
+00000892  C++ Standard Library: A Tutorial and Reference                                0832  04.15  9780200000000  1999-08-12  0005
+00000893  The Design and Analysis of Computer Algorithms                                0480  03.85  9780200000000  1974-01-11  0157
+00000894  Combinatorial Optimization: Algorithms and Complexity                         0528  03.98  9780490000000  1998-01-29  0068
+00000895  The Art of Computer Programming, Volume 4, Fascicle 0: Introduction to Combi  0216  04.53  9780320000000  2008-05-01  0005
+          natorial Algorithms and Boolean Functions
+00000896  Algorithms on Strings, Trees and Sequences: Computer Science and Computation  0556  04.05  9780520000000  1997-05-01  0034
+          al Biology
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0763 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0030                                                                                                                   15:50:54
+
+00000897  Analysis Patterns: Reusable Object Models                                     0384  03.78  9780200000000  1996-10-19  0005
+00000898  The Design and Evolution of C++                                               0480  04.29  9780200000000  1994-04-08  0005
+00000899  Design Patterns Explained: A New Perspective on Object-Oriented Design        0480  03.87  9780320000000  2004-10-22  0005
+00000900  Introduction to Machine Learning                                              0415  03.67  9780260000000  2004-10-01  0129
+00000901  Blockchain Revolution: How the Technology Behind Bitcoin Is Changing Money,   0368  03.36  9780670000000  2016-05-10  0165
+          Business, and the World
+00000902  Rise of the Robots: Technology and the Threat of a Jobless Future             0352  04.03  9780470000000  2015-05-05  0024
+00000903  High Performance Browser Networking                                           0400  04.52  -------------  2013-03-23  0001
+00000904  Scrum: The Art of Doing Twice the Work in Half the Time                       0237  04.19  9780390000000  2014-09-30  0057
+00000905  Data Science for Business: What you need to know about data mining and data-  0414  04.17  9781450000000  2013-08-16  0001
+          analytic thinking
+00000906  The Mathematical Theory of Communication                                      0125  04.39  9780250000000  1963-03-23  0217
+00000907  The Shallows: What the Internet Is Doing to Our Brains                        0280  03.87  9780390000000  2011-06-06  0223
+00000908  Object Thinking                                                               0334  03.97  9780740000000  2004-02-21  0128
+00000909  Scala for the Impatient                                                       0384  04.12  9780320000000  2012-03-16  0005
+00000910  Effective Programming: More Than Writing Code                                 0283  03.91  -------------  2012-07-10  0094
+00000911  Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Teste  0288  04.03  9781600000000  2012-11-22  0203
+          rs and Security Engineers
+00000912  The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Cre  0299  04.06  9780310000000  2011-09-13  0059
+          ate Radically Successful Businesses
+00000913  Digital Design and Computer Architecture                                      0592  04.29  9780120000000  2007-03-01  0133
+00000914  Design Patterns in Ruby                                                       0352  04.16  9780320000000  2007-12-01  0005
+00000915  Linux in a Nutshell                                                           0925  03.91  9780600000000  2005-08-06  0001
+00000916  Computer Vision: Algorithms and Applications                                  0812  04.17  9781850000000  2010-10-19  0199
+00000917  Writing for Computer Science                                                  0270  03.98  9781850000000  2004-06-03  0199
+00000918  C: A Reference Manual                                                         0458  04.15  9780130000000  1994-12-01  0169
+00000919  Quantum Computing for Computer Scientists                                     0384  04.13  9780520000000  2008-08-11  0034
+00000920  To Mock a Mockingbird and Other Logic Puzzles                                 0256  04.13  9780190000000  2000-11-01  0150
+00000921  A Byte of Python                                                              0149  04.05  -------------  ----------  ----
+00000922  Discrete Mathematics with Applications                                        0928  03.94  9780530000000  2003-12-22  0033
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0789 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0031                                                                                                                   15:50:54
+
+00000923  Artificial Intelligence                                                       0640  03.82  9780070000000  1991-03-01  0119
+00000924  Computation: Finite and Infinite Machines (Automatic Computation)             0317  04.57  9780130000000  1967-06-01  0169
+00000925  sed & awk                                                                     0434  03.83  9781570000000  1997-03-23  0001
+00000926  The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy an  0255  03.94  -------------  2004-03-05  0186
+          d How to Restore the Sanity
+00000927  Software Craftsmanship                                                        0305  04.31  -------------  2014-03-10  0105
+00000928  You Don't Know JS: Async & Performance                                        0296  04.28  9781490000000  2015-03-09  0001
+00000929  You Don't Know JS: ES6 & Beyond                                               0278  04.37  9781490000000  2015-12-27  0001
+00000930  The Architecture of Open Source Applications                                  0432  03.68  9781260000000  2011-05-25  0107
+00000931  Modern C++ Design: Generic Programming and Design Patterns Applied            0360  04.24  9780200000000  2001-02-23  0005
+00000932  The Complete Software Developer's Career Guide: How to Learn Programming Lan  0796  04.20  -------------  2017-07-12  0192
+          guages Quickly, Ace Your Programming Interview, and Land Your Software Devel
+          oper Dream
+00000933  Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital W  0406  04.12  9780770000000  2014-11-11  0056
+          eapon
+00000934  Elements of Programming Interviews: The Insiders' Guide C++                   0480  04.28  9781480000000  2012-10-11  0052
+00000935  Hacking Exposed: Network Security Secrets & Solutions                         0692  03.77  9780070000000  2005-04-19  0119
+00000936  The Codebreakers: The Comprehensive History of Secret Communication from Anc  1200  04.20  9780680000000  1996-12-05  0187
+          ient Times to the Internet
+00000937  Advanced Compiler Design and Implementation                                   0856  03.90  9781560000000  1997-08-15  0133
+00000938  Getting Real: The Smarter, Faster, Easier Way to Build a Web Application      0171  04.01  -------------  2006-03-23  0188
+00000939  The Art of Readable Code                                                      0204  03.93  9780600000000  2011-11-23  0001
+00000940  Digital Design                                                                0516  03.98  9780130000000  2001-08-01  0169
+00000941  Language Implementation Patterns: Techniques for Implementing Domain-Specifi  0350  03.80  9781930000000  2010-01-07  0167
+          c Languages
+00000942  The Ruby Programming Language                                                 0448  04.02  9780600000000  2008-02-01  0001
+00000943  An Introduction to the Analysis of Algorithms                                 0512  04.00  9780200000000  1995-12-10  0005
+00000944  The Web Application Hacker's Handbook: Discovering and Exploiting Security F  0722  04.15  9780470000000  2007-10-01  0100
+          laws
+00000945  Python Machine Learning                                                       0454  04.30  9781780000000  2015-10-01  0152
+
+                                                     0023 RECORDS ON THIS PAGE
+                                                     0812 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0032                                                                                                                   15:50:54
+
+00000946  Write Great Code: Volume 1: Understanding the Machine                         0456  03.92  9781590000000  2004-11-08  0139
+00000947  Doing Data Science                                                            0375  03.74  9781450000000  2013-11-03  0001
+00000948  The Shellcoder's Handbook: Discovering and Exploiting Security Holes          0718  04.13  9780470000000  2007-08-01  0232
+00000949  The Science of Programming                                                    ----  03.90  9780390000000  1989-04-21  0199
+00000950  Logic in Computer Science: Modelling and Reasoning about Systems              0447  03.87  9780520000000  2004-08-26  0034
+00000951  Interaction Design: Beyond Human-Computer Interaction                         0773  03.72  9780470000000  2007-03-01  0100
+00000952  Transaction Processing: Concepts and Techniques                               1070  04.38  9781560000000  1992-09-15  0133
+00000953  RESTful Web Services                                                          0454  03.84  9780600000000  2007-05-15  0001
+00000954  Object-Oriented Software Construction (Book/CD-ROM)                           1296  04.06  9780140000000  1997-04-03  0169
+00000955  Literate Programming                                                          0384  03.86  9780940000000  1992-06-01  0040
+00000956  Unix Network Programming, Volume 1: Networking APIs - Sockets and XTI         1009  04.29  9780130000000  1997-10-17  0169
+00000957  The Well-Grounded Rubyist                                                     0520  04.34  9781930000000  2009-06-04  0111
+00000958  Category Theory for Programmers                                               0396  04.13  -------------  2018-10-21  ----
+00000959  The Self-Taught Programmer: The Definitive Guide to Programming Professional  0301  04.05  -------------  2017-01-24  0214
+          ly
+00000960  Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires T  0416  04.17  9780060000000  2015-05-19  0088
+          rying to Reinvent Money
+00000961  Haskell Programming From First Principles                                     1189  04.48  -------------  2015-03-23  0086
+00000962  Regular Expressions Cookbook                                                  0510  04.09  9780600000000  2009-05-29  0001
+00000963  You Don't Know JS: Types & Grammar                                            0182  04.47  9781490000000  2015-02-21  0001
+00000964  Introduction to Java Programming: Comprehensive Version                       1301  04.08  9780130000000  2006-06-01  0169
+00000965  JavaScript Patterns                                                           0216  04.17  9780600000000  2010-09-28  0001
+00000966  Elements of Information Theory                                                0748  04.15  9780470000000  2006-06-01  0233
+00000967  Practical Common LISP                                                         0499  04.14  9781590000000  2007-06-26  0014
+00000968  Graph Databases                                                               0224  03.66  9781450000000  2013-06-17  0001
+00000969  Computational Fairy Tales                                                     0204  03.99  9781480000000  2012-06-26  0052
+00000970  Crypto: How the Code Rebels Beat the Government--Saving Privacy in the Digit  0368  03.98  9780140000000  2001-12-31  0160
+          al Age
+00000971  Learning the vi and Vim Editors                                               0494  03.90  9780600000000  2008-07-22  0001
+00000972  Big Data: Principles and best practices of scalable realtime data systems     0328  03.83  9781620000000  2012-09-23  0111
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     0839 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0033                                                                                                                   15:50:54
+
+00000973  NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence  0192  04.09  9780320000000  2012-08-13  0005
+00000974  UNIX and Linux System Administration Handbook                                 1327  04.40  9780130000000  2014-03-23  0169
+00000975  UNIX Power Tools                                                              1122  04.14  9781570000000  1997-08-09  0001
+00000976  Silence on the Wire: A Field Guide to Passive Reconnaissance and Indirect At  0312  04.20  9781590000000  2005-04-22  0139
+          tacks
+00000977  Problem Solving with Algorithms and Data Structures Using Python              0357  04.09  9781590000000  2005-09-01  0077
+00000978  Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About   0338  03.92  9780060000000  2017-05-09  0063
+          Who We Really Are
+00000979  The DevOps Handbook: How to Create World-Class Agility, Reliability, and Sec  0437  04.35  9781940000000  2016-10-06  0097
+          urity in Technology Organizations
+00000980  Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture   0339  04.25  9780810000000  2004-05-11  0181
+00000981  The Productive Programmer                                                     0226  03.71  9780600000000  2008-07-10  0001
+00000982  The Haskell Road to Logic, Maths and Programming                              0432  03.68  9780950000000  2012-03-23  0045
+00000983  Python for Data Analysis                                                      0400  04.10  9781450000000  2012-10-23  0001
+00000984  Land of LISP: Learn to Program in LISP, One Game at a Time,                   0504  04.14  9781590000000  2010-04-28  0139
+00000985  Programming in Scala                                                          0736  04.21  9780980000000  2008-01-01  0016
+00000986  Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to OO  0600  03.96  9780600000000  2006-11-01  0001
+          A&D
+00000987  Perl Cookbook                                                                 0927  04.01  9780600000000  2003-08-31  0001
+00000988  Cryptography and Network Security: Principles and Practice                    0681  04.02  9780130000000  2002-08-27  0169
+00000989  Spring in Action                                                              0650  03.93  9781930000000  2007-08-23  0111
+00000990  The Art of Invisibility: The World's Most Famous Hacker Teaches You How to B  0320  03.99  9780320000000  2017-02-14  0106
+          e Safe in the Age of Big Brother and Big Data
+00000991  Programming: Principles and Practice Using C++                                1236  04.17  9780320000000  2008-12-25  0005
+00000992  The Imposter's Handbook                                                       0463  03.97  -------------  2016-09-23  0026
+00000993  Where Wizards Stay Up Late: The Origins of the Internet                       0304  03.87  9780680000000  1998-01-21  0190
+00000994  The Go Programming Language                                                   0380  04.45  9780130000000  2015-08-27  0005
+00000995  The Thrilling Adventures of Lovelace and Babbage                              0317  04.05  9780310000000  2015-04-21  0154
+00000996  The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing P  0512  04.48  9780140000000  2002-08-27  0160
+          ersonal
+
+                                                     0024 RECORDS ON THIS PAGE
+                                                     0863 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0034                                                                                                                   15:50:54
+
+00000997  Java 8 in Action                                                              0394  04.31  -------------  2014-08-23  0111
+00000998  Essential Scrum: A Practical Guide to the Most Popular Agile Process          0496  04.14  9780140000000  2012-08-05  0005
+00000999  Learning From Data: A Short Course                                            0213  04.43  9781600000000  2012-03-23  0013
+00001000  High Performance Web Sites                                                    0146  04.17  9780600000000  2007-09-21  0001
+00001001  Dependency Injection in .NET                                                  0584  04.35  9781940000000  2011-09-28  0111
+00001002  Introduction to Functional Programming                                        0293  04.13  9780130000000  ----------  ----
+00001003  Pattern Classification                                                        0688  04.02  9780470000000  2000-11-09  0233
+00001004  Real-Time Rendering                                                           1027  04.48  9781570000000  2008-07-25  0003
+00001005  Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground   0288  03.94  9780310000000  2011-02-22  0056
+00001006  Practical Foundations for Programming Languages                               0582  04.03  -------------  2012-01-30  0036
+00001007  The Golden Ticket: P, Np, and the Search for the Impossible                   0176  03.60  9780690000000  2013-03-31  0174
+00001008  xUnit Test Patterns: Refactoring Test Code                                    0883  03.92  9780130000000  2007-05-01  0005
+00001009  Computational Geometry: Algorithms and Applications                           0367  04.05  9783540000000  2000-02-18  0199
+00001010  Head First C#                                                                 0714  03.92  9780600000000  2007-12-03  0001
+00001011  Programming Erlang                                                            0519  03.97  9781930000000  2007-07-18  0167
+00001012  C Primer Plus                                                                 0959  04.10  9752063000000  2004-11-23  0186
+00001014  Dive Into Python                                                              0413  03.96  9781590000000  2004-11-05  0014
+00001015  Java Puzzlers: Traps, Pitfalls, and Corner Cases                              0282  04.20  9780320000000  2005-09-01  0005
+00001016  Learning the bash Shell                                                       0333  03.89  9780600000000  2005-04-08  0001
+00001017  Practices of an Agile Developer: Working in the Real World                    0189  03.88  9780970000000  2006-04-01  0167
+00001018  A New Kind of Science                                                         1264  03.56  9781580000000  2002-05-01  0236
+00001019  The Computational Beauty of Nature: Computer Explorations of Fractals, Chaos  0514  04.34  9780260000000  2000-01-27  0032
+          , Complex Systems, and Adaptation
+00001020  Introduction to Algorithms: A Creative Approach                               0478  04.23  9780200000000  1989-01-11  0005
+00001021  The Art of Multiprocessor Programming                                         0508  03.96  9780120000000  2008-03-01  0133
+00001022  An Introduction to Information Theory: Symbols, Signals and Noise             0306  03.95  9780490000000  1980-11-01  0068
+00001023  The Book of Why: The New Science of Cause and Effect                          0432  04.01  9780470000000  2018-05-15  0024
+00001024  Selected Papers on Computer Science                                           0276  03.88  9781880000000  2004-11-15  0040
+00001025  Software Estimation: Demystifying the Black Art                               0308  04.03  9780740000000  2006-03-04  0128
+00001026  An Introduction to Database Systems                                           1040  03.93  9780320000000  2003-08-01  0157
+
+                                                     0029 RECORDS ON THIS PAGE
+                                                     0892 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0035                                                                                                                   15:50:54
+
+00001027  Programming Python                                                            1552  03.96  9780600000000  2006-08-01  0001
+00001028  Object-Oriented Analysis and Design with Applications                         0720  03.90  9780200000000  2007-04-01  0005
+00001029  Data Mining: Practical Machine Learning Tools and Techniques                  0525  03.87  9780120000000  2005-06-01  0133
+00001030  Make Your Own Neural Network                                                  0252  04.36  -------------  2016-03-29  ----
+00001031  The Effective Engineer: How to Leverage Your Efforts In Software Engineering  0260  04.30  9781000000000  2015-03-19  0072
+           to Make a Disproportionate and Meaningful Impact
+00001032  The Little Book of Semaphores: The Ins and Outs of Concurrency Control and C  0294  04.41  9781440000000  2009-03-20  0051
+          ommon Mistakes
+00001033  Neural Networks and Deep Learning                                             ----  04.49  -------------  2013-11-25  ----
+00001034  How Google Works                                                              0305  04.05  -------------  2014-09-23  0099
+00001035  Seven Concurrency Models in Seven Weeks: When Threads Unravel                 0267  03.84  9781940000000  2014-02-25  0167
+00001036  Think Complexity: Complexity Science and Computational Modeling               0160  03.89  9781450000000  2012-03-09  0001
+00001037  Introduction to Computation and Programming Using Python                      0268  04.20  9780260000000  2013-01-18  0129
+00001038  Mining of Massive Datasets                                                    0326  04.37  9781110000000  2011-12-30  0034
+00001039  About Face 3: The Essentials of Interaction Design                            0610  04.04  9780470000000  2007-05-01  0100
+00001040  Computability and Logic                                                       0350  04.01  9780520000000  2007-10-01  0034
+00001041  Pearls of Functional Algorithm Design                                         0277  04.18  9780520000000  2010-11-01  0034
+00001042  Reversing: Secrets of Reverse Engineering                                     0624  04.03  9780760000000  2005-04-15  0232
+00001043  An Introduction to Formal Language and Automata                               0415  03.80  9780760000000  2006-02-17  0101
+00001044  Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template  0288  04.20  9780200000000  2001-06-16  0005
+           Library
+00001045  Just for Fun: The Story of an Accidental Revolutionary                        0288  03.91  9780070000000  2002-06-04  0088
+00001046  Cryptography Engineering: Design Principles and Practical Applications        0353  04.18  9780470000000  2010-03-08  0232
+00001047  The Art of Intrusion: The Real Stories Behind the Exploits of Hackers, Intru  0270  03.88  9780470000000  2006-01-01  0232
+          ders and Deceivers
+00001048  Life 3.0: Being Human in the Age of Artificial Intelligence                   0384  04.08  9780450000000  2017-08-29  0180
+00001049  Machine Learning: A Probabilistic Perspective                                 1104  04.37  9780260000000  2012-08-24  0129
+00001050  You Don't Know JS: this & Object Prototypes                                   0174  04.46  9781490000000  2014-07-27  0001
+00001051  Probability and Computing: Randomized Algorithms and Probabilistic Analysis   0370  04.09  9780520000000  2005-03-01  0034
+00001052  The Second Machine Age: Work, Progress, and Prosperity in a Time of Brillian  0336  03.95  9780390000000  2016-01-25  0223
+
+                                                     0026 RECORDS ON THIS PAGE
+                                                     0918 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0036                                                                                                                   15:50:54
+
+          t Technologies
+00001053  Our Final Invention: Artificial Intelligence and the End of the Human Era     0336  03.75  9780310000000  2013-10-01  0209
+00001054  Automate This: How Algorithms Came to Rule Our World                          0256  03.83  9781590000000  2012-08-30  0165
+00001055  The Essential Turing: Seminal Writings in Computing, Logic, Philosophy, Arti  0622  04.19  9780200000000  2013-06-24  0149
+          ficial Intelligence, and Artificial Life Plus the Secrets of Eni
+00001056  How to Prove It: A Structured Approach                                        0384  04.26  9780520000000  2006-03-01  0034
+00001057  How Google Tests Software                                                     0281  03.77  9780320000000  2012-04-02  0005
+00001058  Lauren Ipsum                                                                  0150  03.90  -------------  2011-12-03  0141
+00001059  Basic Category Theory for Computer Scientists                                 0100  03.54  9780260000000  1991-08-07  0129
+00001060  Python Cookbook                                                               0706  04.13  9781450000000  2013-05-29  0001
+00001061  Mastering Bitcoin: Unlocking Digital Cryptocurrencies                         0298  04.32  9781450000000  2014-12-27  0001
+00001062  Facts and Fallacies of Software Engineering                                   0216  03.95  9780320000000  2002-11-07  0005
+00001063  Metasploit: The Penetration Tester's Guide                                    0328  04.04  9781590000000  2011-07-22  0139
+00001064  Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Mo  0352  04.02  9781930000000  2012-05-18  0167
+          vement
+00001065  The Most Human Human: What Talking with Computers Teaches Us About What It M  0303  03.93  9780390000000  2011-03-01  0104
+          eans to Be Alive
+00001066  Domain-Specific Languages                                                     0597  03.87  9780320000000  2011-03-23  0005
+00001067  Numerical Recipes in C: The Art of Scientific Computing                       1020  04.17  9780520000000  1992-10-30  0034
+00001068  Things a Computer Scientist Rarely Talks About                                0257  03.98  9781580000000  2003-08-01  0040
+00001069  Advanced Topics in Types and Programming Languages                            0588  03.92  9780260000000  2004-12-23  0129
+00001070  The Emperor's New Mind: Concerning Computers, Minds and the Laws of Physics   0640  03.86  9780190000000  2002-12-12  0150
+00001071  The Seasoned Schemer                                                          0224  04.30  9780260000000  1995-12-21  0129
+00001072  Dreaming in Code: Two Dozen Programmers, Three Years, 4,732 Bugs, and One Qu  0416  03.69  9781400000000  2007-01-16  0058
+          est for Transcendent Software
+00001073  Machine Learning for Hackers                                                  0322  03.72  -------------  2012-02-23  0001
+00001074  The Universal Computer: The Road from Leibniz to Turing                       0257  04.12  9780390000000  2000-10-17  0223
+00001075  On Lisp: Advanced Techniques for Common Lisp                                  0413  04.31  9780130000000  1993-09-09  0169
+00001076  UML Distilled: A Brief Guide to the Standard Object Modeling Language         0208  03.78  9780320000000  2003-09-25  0005
+00001077  Practical Vim: Edit Text at the Speed of Thought                              0300  04.47  9781930000000  2012-09-23  0208
+
+                                                     0025 RECORDS ON THIS PAGE
+                                                     0943 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0037                                                                                                                   15:50:54
+
+00001078  Probabilistic Graphical Models: Principles and Techniques                     1231  04.21  9780260000000  2009-08-01  0129
+00001079  C++ Primer Plus                                                               1202  04.05  9752063000000  2004-11-15  0186
+00001080  Game Engine Architecture                                                      0860  04.33  9781570000000  2009-06-15  0003
+00001081  Algorithms in a Nutshell                                                      0343  03.88  9780600000000  2008-10-01  0001
+00001082  Data Mining: Concepts and Techniques (The Morgan Kaufmann Series in Data Man  0772  03.89  9781560000000  2006-03-01  0133
+          agement Systems)
+00001083  Cryptonomicon                                                                 1139  04.25  9780060000000  2002-11-01  0019
+00001084  Computer Science: An Overview                                                 0599  03.77  9780320000000  2006-02-01  0005
+00001085  Think Like a Programmer: An Introduction to Creative Problem Solving          0233  03.90  9781590000000  2012-08-08  0139
+00001086  Data Structures and Algorithms                                                0448  03.87  9780200000000  1983-01-11  0157
+00001087  Programming in Haskell                                                        0171  04.00  9780520000000  2007-01-15  0034
+00001088  The Nature of Computation                                                     1032  04.59  9780200000000  2011-09-26  0150
+00001089  Quantum Computation and Quantum Information                                   0700  04.31  9780520000000  2000-10-23  0034
+00001090  The Singularity is Near: When Humans Transcend Biology                        0652  03.94  9780140000000  2006-09-26  0160
+00001091  Security Engineering: A Guide to Building Dependable Distributed Systems      1040  04.20  9780470000000  2008-04-01  0232
+00001092  A Philosophy of Software Design                                               0190  04.12  9781730000000  2018-04-06  0240
+00001093  Computer Science Distilled: Learn the Art of Solving Computational Problems   ----  04.10  9781000000000  2017-01-17  0044
+00001094  Soft Skills: The Software Developer's Life Manual                             0470  03.92  -------------  ----------  ----
+00001095  How to Solve It: A New Aspect of Mathematical Method                          0288  04.16  9780690000000  2015-09-25  0174
+00001096  Game Programming Patterns                                                     0300  04.51  9781430000000  2011-01-01  0083
+00001097  You Don't Know JS: Up & Going                                                 0072  04.31  9781490000000  2015-04-23  0001
+00001098  Reinforcement Learning: An Introduction                                       0322  04.45  9780260000000  1998-02-26  0032
+00001099  Learn Python The Hard Way                                                     0210  03.89  -------------  ----------  ----
+00001100  Data and Goliath: The Hidden Battles to Collect Your Data and Control Your W  0448  04.03  9780390000000  2016-02-08  0223
+          orld
+00001101  A Tour of C++                                                                 0192  04.24  9780320000000  2013-10-03  0005
+00001102  JavaScript and jQuery: Interactive Front-End Web Development                  0640  04.35  9781120000000  2014-06-30  0232
+00001103  The Art of Computer Programming, Volume 4A: Combinatorial Algorithms, Part 1  0912  04.54  9780200000000  2011-01-22  0005
+00001104  Agile Principles, Patterns, and Practices in C#                               0732  04.32  9780130000000  2006-07-30  0169
+00001105  Agile Web Development with Rails: A Pragmatic Guide                           0558  03.91  9780980000000  2005-07-28  0167
+
+                                                     0028 RECORDS ON THIS PAGE
+                                                     0971 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0038                                                                                                                   15:50:54
+
+00001106  Elements of the Theory of Computation                                         0384  03.84  9780130000000  1997-08-17  0157
+00001107  Digital Image Processing                                                      0793  04.01  9780200000000  2001-11-09  0169
+00001108  Secrets of the JavaScript Ninja                                               0370  04.17  9781930000000  2013-01-14  0111
+00001109  On Intelligence                                                               0261  04.13  9780810000000  2005-08-01  0200
+00001110  Secrets and Lies: Digital Security in a Networked World                       0401  03.89  9780470000000  2004-01-30  0232
+00001111  Software Architecture in Practice                                             0560  03.72  9785342000000  2003-04-09  0005
+00001112  The Pattern on the Stone: The Simple Ideas that Make Computers Work           0176  04.04  9780470000000  1999-10-08  0024
+00001113  Software Engineering: A Practitioner's Approach                               0793  03.70  9780070000000  2004-03-01  0119
+00001114  Foundations of Computer Science: C Edition                                    0800  04.01  9780720000000  1994-10-15  0226
+00001115  Python Programming: An Introduction to Computer Science                       0517  04.00  9781890000000  2003-12-01  0077
+00001116  Introduction to the Design and Analysis of Algorithms                         0565  03.97  9780130000000  2011-10-09  0157
+00001117  How Computers Work                                                            0464  03.89  9780790000000  2005-11-19  0179
+00001118  Thinking in Java                                                              1482  04.16  9780130000000  2006-02-20  0169
+00001119  From Mathematics to Generic Programming                                       0320  04.15  9780130000000  2014-10-29  0005
+00001120  The Reasoned Schemer                                                          0176  04.28  9780260000000  2005-10-14  0129
+00001121  Essentials of Programming Languages                                           0389  03.93  9780260000000  2001-01-29  0129
+00001122  Algorithms Plus Data Structures Equals Programs (Prentice-Hall series in aut  0400  04.22  9780130000000  1975-11-11  0169
+          omatic computation)
+00001123  How Linux Works: What Every Superuser Should Know                             0368  04.10  9781590000000  2004-05-24  0139
+00001124  Fluent Python: Clear, Concise, and Effective Programming                      0792  04.67  9781490000000  2015-08-20  0001
+00001125  C++ Primer                                                                    0885  04.19  9780200000000  2005-02-24  0005
+00001126  Computer Graphics: Principles and Practice                                    9998  04.16  9780200000000  1995-08-14  0005
+00001127  Concepts of Programming Languages                                             0670  03.71  9780200000000  1998-08-01  0005
+00001128  The Joy of Clojure                                                            0328  04.18  9781940000000  2011-03-28  0111
+00001129  The Art of Unit Testing: With Examples in .NET                                0320  04.10  9781930000000  2009-07-05  0111
+00001130  Java: How to Program                                                          1568  03.85  9780130000000  2004-08-14  0169
+00001131  Database Systems: The Complete Book                                           1119  03.77  9780130000000  2001-10-02  0169
+00001132  How to Create a Mind: The Secret of Human Thought Revealed                    0336  03.96  9780670000000  2012-11-13  0220
+00001133  Programming Ruby: The Pragmatic Programmers' Guide                            0828  04.05  9780970000000  2004-10-11  0167
+00001134  The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage       0399  04.21  9781420000000  2005-09-13  0081
+
+                                                     0029 RECORDS ON THIS PAGE
+                                                     1000 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0039                                                                                                                   15:50:54
+
+00001135  The Elements of Programming Style                                             0168  04.18  9780070000000  1988-06-01  0119
+00001136  You Don't Know JS: Scope and Closures                                         0098  04.54  9781450000000  2014-03-24  0001
+00001137  C# in Depth                                                                   0554  04.48  9781940000000  2010-11-22  0111
+00001138  Weapons of Math Destruction: How Big Data Increases Inequality and Threatens  0259  03.87  9780550000000  2016-09-06  0056
+           Democracy
+00001139  Data Science from Scratch: First Principles with Python                       0330  03.91  -------------  2015-04-14  0001
+00001140  C++: How to Program                                                           1536  03.94  9780130000000  2004-12-01  0169
+00001141  Implementing Domain-Driven Design                                             0656  04.06  9780320000000  2013-02-16  0005
+00001142  Let Over Lambda                                                               0384  04.04  9781440000000  2008-04-02  0107
+00001143  Understanding the Linux Kernel                                                0923  04.06  9780600000000  2005-11-24  0001
+00001144  An Introduction to Functional Programming Through Lambda Calculus             0336  04.13  9780490000000  2011-08-18  0068
+00001145  Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman         0176  04.11  9780600000000  2009-10-22  0001
+00001146  Elements of Programming                                                       0262  04.01  9780320000000  2009-06-01  0005
+00001147  Engineering a Compiler                                                        0801  03.97  9781560000000  2003-11-10  0133
+00001148  In the Beginning...Was the Command Line                                       0160  03.79  -------------  2009-10-13  0235
+00001149  Introduction to Information Retrieval                                         0482  04.20  9780520000000  2008-07-01  0034
+00001150  Programming Perl                                                              1092  04.05  9780600000000  2000-07-24  0001
+00001151  Programming the Universe: A Quantum Computer Scientist Takes on the Cosmos    0240  04.00  9781400000000  2006-03-14  0103
+00001152  Hands-On Machine Learning with Scikit-Learn and TensorFlow                    0450  04.55  -------------  2017-04-09  0001
+00001153  Rapid Development: Taming Wild Software Schedules                             0674  03.96  9781560000000  1996-07-09  0128
+00001154  Foundations of Statistical Natural Language Processing                        0679  04.16  9780260000000  1999-05-28  0129
+00001155  Out of Their Minds: The Lives and Discoveries of 15 Great Computer Scientist  0291  03.80  9780390000000  1998-07-02  0046
+          s
+00001156  Effective Python: 59 Specific Ways to Write Better Python                     0227  04.26  9780130000000  2015-03-08  0005
+00001157  Big Data: A Revolution That Will Transform How We Live, Work, and Think       0242  03.71  9780540000000  2013-03-05  0093
+00001158  Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++1  0334  04.52  9781490000000  2014-12-12  0001
+          4
+00001159  Real World Haskell: Code You Can Believe In                                   0720  03.93  9780600000000  2008-12-02  0001
+00001160  Algorithms Unlocked                                                           0237  04.17  9781300000000  2013-05-15  0129
+00001161  Turing's Cathedral: The Origins of the Digital Universe                       0505  03.55  9780310000000  2012-03-06  0154
+
+                                                     0027 RECORDS ON THIS PAGE
+                                                     1027 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0040                                                                                                                   15:50:54
+
+00001162  The Art of UNIX Programming                                                   0560  04.17  9780130000000  2003-10-03  0005
+00001163  Database System Concepts                                                      1142  03.77  9780070000000  2005-06-01  0119
+00001164  Refactoring to Patterns                                                       0400  04.03  9785342000000  2004-08-15  0005
+00001165  Site Reliability Engineering: How Google Runs Production Systems              0552  04.23  9781490000000  2016-04-16  0001
+00001166  The Linux Command Line                                                        0480  04.36  9781590000000  2012-01-14  0139
+00001167  The New Turing Omnibus: 66 Excursions In Computer Science                     0480  03.88  9780720000000  1993-04-01  0226
+00001168  JavaScript: The Definitive Guide                                              1032  04.02  9780600000000  2006-08-24  0001
+00001169  Linux Kernel Development                                                      0440  04.29  9780670000000  2010-06-25  0005
+00001170  Programming Language Pragmatics                                               0875  03.96  9780130000000  2005-11-07  0133
+00001171  Understanding Computation: From Simple Machines to Impossible Programs        0332  04.23  9781450000000  2013-05-10  0001
+00001172  The Design of Everyday Things                                                 0240  04.19  9780470000000  2002-09-19  0024
+00001173  The Innovators: How a Group of  Hackers, Geniuses and Geeks Created the Digi  0528  04.08  9781480000000  2014-10-07  0190
+          tal Revolution
+00001174  The Soul of a New Machine                                                     0293  04.11  9780320000000  2000-06-01  0020
+00001175  The Elements of Statistical Learning: Data Mining, Inference, and Prediction  0552  04.37  9780390000000  2003-09-02  0199
+00001176  The Computer and the Brain                                                    0112  03.90  9780300000000  2000-07-11  0241
+00001177  Enterprise Integration Patterns: Designing, Building, and Deploying Messagin  0736  04.07  9785342000000  2003-10-20  0005
+          g Solutions
+00001178  Release It,: Design and Deploy Production-Ready Software (Pragmatic Programm  0326  04.21  9780980000000  2007-04-06  0167
+          ers)
+00001179  Computational Complexity                                                      0579  04.27  9780520000000  2009-05-01  0034
+00001180  Automate the Boring Stuff with Python: Practical Programming for Total Begin  0479  04.25  9781590000000  2015-05-01  0139
+          ners
+00001181  HTML and CSS: Design and Build Websites                                       0514  04.34  9781120000000  2011-11-08  0232
+00001182  Speech and Language Processing: An Introduction to Natural Language Processi  0934  04.17  9780130000000  2000-01-26  0169
+          ng, Computational Linguistics and Speech Recognition
+00001183  Paradigms of Artificial Intelligence Programming: Case Studies in Common LIS  0946  04.32  9781560000000  1991-10-15  0133
+          P
+00001184  Agile Software Development, Principles, Patterns, and Practices               0552  04.26  9780140000000  2002-10-25  0157
+00001185  Operating Systems: Three Easy Pieces                                          0686  04.72  -------------  2012-08-18  0015
+
+                                                     0024 RECORDS ON THIS PAGE
+                                                     1051 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0041                                                                                                                   15:50:54
+
+00001186  Software Engineering (International Computer Science Series)                  0759  03.75  9780320000000  2004-05-10  0005
+00001187  Alan Turing: The Enigma                                                       0608  03.80  9780800000000  2000-03-01  0227
+00001188  Expert C Programming: Deep C Secrets                                          0384  04.31  9780130000000  1994-06-24  0169
+00001189  Operating Systems Design and Implementation                                   1088  04.03  9780130000000  2006-01-01  0169
+00001190  Computer Organization and Architecture: Designing for Performance             0815  04.05  9780130000000  2002-05-23  0169
+00001191  Learning Perl                                                                 0312  03.98  9780600000000  2005-07-21  0001
+00001192  Extreme Programming Explained: Embrace Change (The XP Series)                 0224  04.04  9780320000000  2004-11-26  0005
+00001193  An Introduction to Statistical Learning: With Applications in R               0426  04.61  9781460000000  2017-09-01  0199
+00001194  The Design of Design: Essays from a Computer Scientist                        0421  03.75  9780200000000  2010-03-26  0005
+00001195  97 Things Every Programmer Should Know: Collective Wisdom from the Experts    0258  03.65  9780600000000  2010-02-19  0001
+00001196  The Art of Deception: Controlling the Human Element of Security               0352  03.76  9780760000000  2003-10-17  0232
+00001197  Natural Language Processing with Python                                       0504  04.14  9780600000000  2009-07-07  0001
+00001198  Accelerated C++: Practical Programming by Example                             0352  04.06  9785343000000  2000-08-24  0005
+00001199  Distributed Systems: Concepts and Design                                      1047  03.59  9780130000000  2011-05-07  0157
+00001200  Practical Object Oriented Design in Ruby                                      0247  04.55  9780320000000  2012-08-19  0005
+00001201  Fundamentals of Database Systems                                              1139  03.81  9780320000000  2006-03-07  0005
+00001202  Distributed Systems: Principles and Paradigms                                 0686  03.90  9780130000000  2006-10-01  0158
+00001203  The Psychology of Computer Programming                                        0292  04.10  9780930000000  2005-10-21  0065
+00001205  The Design of the UNIX Operating System                                       0471  04.20  9780130000000  1986-06-06  0169
+00001206  Programming Interviews Exposed: Secrets to Landing Your Next Job (Programmer  0237  03.96  9780470000000  2007-04-30  0228
+           to Programmer)
+00001207  Pragmatic Thinking and Learning: Refactor Your Wetware                        0251  04.12  9781930000000  2008-09-01  0167
+00001208  Learn You a Haskell for Great Good,                                           0176  04.32  -------------  ----------  ----
+00001209  Designing Data-Intensive Applications                                         0562  04.72  -------------  ----------  ----
+00001210  The Master Algorithm: How the Quest for the Ultimate Learning Machine Will R  0352  03.80  9780470000000  2015-09-22  0024
+          emake Our World
+00001211  Hacking: The Art of Exploitation                                              0241  04.13  9781590000000  2004-10-08  0139
+00001212  Pattern Recognition and Machine Learning                                      0738  04.28  9780390000000  2011-04-06  0199
+00001213  Peopleware: Productive Projects and Teams                                     0245  04.16  9780930000000  1999-01-01  0065
+00001214  The Art of Computer Programming, Volume 2: Seminumerical Algorithms           0784  04.39  9780200000000  1997-11-14  0005
+
+                                                     0028 RECORDS ON THIS PAGE
+                                                     1079 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0042                                                                                                                   15:50:54
+
+00001215  Cracking the Coding Interview: 150 Programming Questions and Solutions        0500  04.34  9781470000000  2011-08-01  0051
+00001217  Learning Python                                                               1214  03.94  9780600000000  2003-12-30  0001
+00001218  Hackers: Heroes of the Computer Revolution                                    0464  04.13  9780140000000  2001-01-01  0160
+00001219  Deep Learning                                                                 0787  04.47  -------------  2016-03-23  0204
+00001220  A Discipline of Programming                                                   0256  04.27  9780130000000  1976-03-29  0169
+00001221  Algorithm Design                                                              0864  04.12  9780320000000  2005-03-26  0157
+00001222  The Art of Computer Programming: Volume 3: Sorting and Searching              0800  04.38  9785343000000  1998-05-04  0005
+00001223  Computer Architecture: A Quantitative Approach                                0704  04.08  9780120000000  2006-11-03  0133
+00001224  Growing Object-Oriented Software, Guided by Tests                             0345  04.17  9780320000000  2009-10-01  0005
+00001225  Advanced Programming in the UNIX Environment                                  0768  04.31  9780200000000  1992-06-30  0005
+00001226  Algorithms                                                                    0320  04.21  9780070000000  2006-09-13  0119
+00009000  To Kill a Mockingbird                                                         0665  04.10  9884348604527  2003-08-19  0020
+00009001  Pride and Prejudice                                                           0574  04.00  9839259412804  2002-09-21  0020
+00009002  The Diary of Anne Frank                                                       0602  04.50  9870052457784  2019-10-12  0020
+00009003  1984                                                                          0469  04.50  9873874052216  1998-06-06  0100
+00009004  Harry Potter and the Sorcerer's Stone                                         0940  04.80  9825412294488  2016-08-16  0020
+00009005  The Lord of the Rings                                                         0304  04.50  9853062610010  1990-11-21  0020
+00009006  The Great Ga                                                                  0738  04.10  9818616033052  2014-02-13  0020
+00009007  Charlotte's Web                                                               0565  04.00  9839456859556  1999-03-18  0020
+00009008  The Hobbit                                                                    0578  04.40  9874507195370  2009-03-24  0020
+00009009  Little Women                                                                  0970  04.90  9851133064836  2007-10-25  0020
+00009010  Fahrenheit 451                                                                0866  04.30  9879866254737  1990-05-24  0020
+00009011  Jane Eyre                                                                     0318  04.60  9831020648542  2007-04-13  0020
+00009012  Animal Farm                                                                   0975  04.00  9878484294651  2010-03-13  0010
+00009013  Gone with the Wind                                                            0653  04.70  9891872308984  2004-08-05  0020
+00009014  The Catcher in the Rye                                                        0373  04.70  9893009028810  2002-05-28  0020
+00009015  The Book Thief                                                                0803  04.80  9890165505181  2009-04-02  0020
+00009016  The Adventures of Huckleberry Finn                                            0751  04.40  9834125050465  2013-06-07  0020
+00009017  The Hunger Games                                                              0613  04.20  9843408147799  2010-05-06  0020
+00009018  The Help                                                                      0681  05.00  9874832752697  2015-11-26  0020
+
+                                                     0030 RECORDS ON THIS PAGE
+                                                     1109 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0043                                                                                                                   15:50:54
+
+00009019  The Lion the Witch and the Wadrobe                                            0360  04.90  9860056943256  1992-06-28  0020
+00009020  The Grapes of Wrath                                                           0328  04.50  9886576139939  1990-12-28  0020
+00009021  The Lord of the Flies                                                         0931  04.30  9859231883306  1995-07-05  0020
+00009022  The Kite Runner                                                               0783  05.00  9851145799418  2005-04-11  0020
+00009023  Night                                                                         0389  04.50  9831555036912  2013-04-04  0020
+00009024  Hamlet                                                                        0255  04.50  9870869179225  2010-05-07  0020
+00009025  A Wrinkle in Time                                                             0893  04.10  9897066029335  1999-07-27  0010
+00009026  Of Mice and Men                                                               0999  04.30  9867424555793  2010-10-09  0010
+00009027  A Tale of Two Cities                                                          0640  04.80  9831090962944  2011-07-23  0010
+00009028  Romeo and Juliet                                                              0409  05.00  9864873399190  2018-09-23  0020
+00009029  The Hitchhikers Guide to the Galaxy                                           0785  04.60  9847568428621  2011-01-11  0020
+00009030  The Secret Garden                                                             0813  04.00  9832655865081  2007-09-16  0020
+00009031  A Christmas Carol                                                             0418  04.00  9810571392461  2007-01-03  0010
+00009032  The Little Prince                                                             0435  04.40  9866672872915  1994-12-22  0020
+00009033  Brave New World                                                               0508  04.60  9898307228117  1990-03-23  0020
+00009034  Harry Potter and the Deathly Hallows                                          0667  04.70  9874399258238  1994-11-01  0020
+00009035  The Giver                                                                     0310  04.80  9808559266089  2003-07-16  0020
+00009036  The Handmaid's Tale                                                           0334  04.10  9843427295728  2011-07-03  0020
+00009037  Where the Sidewalk Ends                                                       0609  04.40  9849259132179  2000-06-10  0020
+00009038  Wuthering Heights                                                             0365  04.30  9880810347223  2001-05-26  0020
+00009039  The Fault in Our Stars                                                        0905  04.70  9864810369003  2016-09-20  0020
+00009040  Anne of Green Gables                                                          0645  04.50  9858181713860  2000-08-03  0010
+00009041  The Adventures of Tom Sawyer                                                  0495  04.60  9874188631964  2009-01-26  0020
+00009042  Macbeth                                                                       0899  05.00  9890460900276  2006-08-18  0020
+00009043  The Girl with a Dragon Tattoo                                                 0296  04.40  9861996494754  1997-09-10  0020
+00009044  Frankenstein                                                                  0593  05.00  9839728125006  2015-02-25  0020
+00009045  The Holy Bible: King James Version                                            0953  04.90  9845407409411  2018-02-02  0020
+00009046  The Color Purple                                                              0628  04.70  9874678386120  1994-11-13  0020
+00009047  The Count of Monte Cristo                                                     0986  05.00  9871487996972  2005-07-11  0020
+00009048  A Tree Grows in Brooklyn                                                      0711  04.30  9878930372856  2016-12-12  0010
+
+                                                     0030 RECORDS ON THIS PAGE
+                                                     1139 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0044                                                                                                                   15:50:54
+
+00009049  East of Eden                                                                  0755  04.50  9889465376927  2002-10-15  0010
+00009050  Alice in Wonderland                                                           0636  04.40  9872127600564  2015-03-05  0010
+00009051  In Cold Blood                                                                 0979  04.90  9819535062703  2011-10-02  0010
+00009052  Catch-22                                                                      0828  04.30  9833288453694  2014-03-10  0020
+00009053  The Stand                                                                     0681  04.30  9862396253308  2008-08-14  0020
+00009054  Outlander                                                                     0548  04.20  9862580733520  1999-11-04  0010
+00009055  Harry Potter and the Prisoner of Azkaban                                      0387  04.40  9855797266143  2012-02-04  0020
+00009056  Enders Game                                                                   0440  04.30  9850385522395  1996-05-16  0010
+00009057  Anna Karenina                                                                 0700  04.80  9827326475137  1991-08-21  0010
+00009058  Watership Down                                                                0490  04.00  9844726135695  1992-08-27  0020
+00009059  Memoirs of a Geisha                                                           0819  04.20  9824751923652  1990-01-04  0020
+00009060  Rebecca                                                                       0618  05.00  9803428411990  2010-10-17  0020
+00009061  A Game of Thrones                                                             0274  04.00  9868766205098  1995-10-20  0010
+00009062  Great Expectations                                                            0474  04.30  9877389251974  2002-05-25  0020
+00009063  The Old Man and the Sea                                                       0813  04.80  9872761769330  2015-01-18  0020
+00009064  The Adventures of Sherlock Holmes                                             0757  04.00  9807714982607  2015-09-01  0020
+00009065  Les Miserables                                                                0953  04.30  9880453914369  2016-02-13  0020
+00009066  Harry Potter and the Half-Blood Prince                                        0549  04.20  9872145386892  1991-06-23  0020
+00009067  Life of Pi                                                                    0292  03.14  9894172475935  2006-02-19  0020
+00009068  The Scarlet Letter                                                            0458  04.00  9839360218131  2004-06-16  0020
+00009069  Celebrating Silence: Excerpts from Five Years of Weekly Know                  0940  04.10  9841212656060  1991-06-01  0020
+00009070  The Chronicles of Narnia                                                      0402  04.30  9832406470623  1996-11-11  0020
+00009071  The Pillars of the Earth                                                      0385  04.90  9806243881735  2014-05-14  0020
+00009072  Catching Fire                                                                 0272  04.90  9899306616832  2013-12-20  0020
+00009073  Charlie and the Chocolate Factory                                             0904  04.70  9823802484310  2012-07-12  0020
+00009074  Dracula                                                                       0990  04.60  9852494180466  2005-03-17  0020
+00009075  The Princess Bride                                                            0799  04.50  9894200839202  2016-10-27  0020
+00009076  Water for Elephants                                                           0275  04.50  9811626503475  2000-10-10  0020
+00009077  The Raven                                                                     0400  04.70  9854968510300  2015-09-03  0020
+00009078  The Secret Life of Bees                                                       0709  04.20  9804401290416  2010-10-25  0020
+
+                                                     0030 RECORDS ON THIS PAGE
+                                                     1169 TOTAL RECORDS READ
+
+
+CREATED BY PROGRAM BOOKREP                                 BOOK DATABASE                                                  2020-05-15
+PAGE 0045                                                                                                                   15:50:54
+
+00009079  The Poisonwood Bible: A Novel                                                 0617  04.50  9875954699192  1994-02-28  0020
+00009080  One Hundred Years of Solitude                                                 0348  04.40  9857086346135  2011-07-09  0010
+00009081  The Time Traveler's Wife                                                      0913  04.90  9847289674895  2003-11-06  0020
+00009082  The Odyssey                                                                   0484  04.00  9899492862479  2014-12-22  0020
+00009083  The Good Earth (House of Earth #1)                                            0531  04.10  9868023844651  2004-05-03  0020
+00009084  Mockingjay (Hunger Games #3)                                                  0482  04.70  9887255467797  1991-01-22  0020
+00009085  And Then There Were None                                                      0566  04.90  9827142345977  2001-03-24  0010
+00009086  The Thorn Birds                                                               0540  04.90  9846555153642  1991-10-27  0020
+00009087  A Prayer for Owen Meany                                                       0728  04.30  9886522968376  2006-08-23  0010
+00009088  The Glass Castle                                                              0395  04.10  9886748776363  1999-05-14  0020
+00009089  The Immortal Life of Henrietta Lacks                                          0813  05.00  9880306646324  2019-06-26  0020
+00009090  Crime and Punishment                                                          0946  04.50  9867173491069  2011-12-18  0020
+00009091  The Road                                                                      0793  04.20  9818932815968  2004-07-17  0020
+00009092  The Things They Carried                                                       0430  04.30  9832706349592  2014-04-19  0020
+00009093  Siddhartha                                                                    0763  04.70  9809919994618  1991-04-07  0020
+00009094  Beloved                                                                       0541  05.00  9871059640428  1990-06-27  0020
+00009095  Slaughterhouse-Five                                                           0453  04.20  9808197613518  2010-05-01  0020
+00009096  Cutting For Stone                                                             0893  04.20  9808954070446  2014-08-03  0020
+00009097  The Phantom Tollbooth                                                         0672  04.40  9833677690519  2019-01-15  0020
+00009098  The Brothers Karamazov                                                        0853  04.40  9820419994845  2018-07-26  0020
+00009099  The Story of My Life                                                          0965  04.40  9882364434958  2018-11-11  0020
+
+                                                     0021 RECORDS ON THIS PAGE
+                                                     1190 TOTAL RECORDS READ
+
+*********************************************************  END OF REPORT  **********************************************************
+

@@ -1,0 +1,1119 @@
+      *-----------------------
+       IDENTIFICATION DIVISION.
+      *-----------------------
+       PROGRAM-ID.    TRAN2DB2.
+       AUTHOR.        SAM MAGALIT.
+       DATE-WRITTEN.  03/12/2020.
+       SECURITY.      HIGHLY CONFIDENTIAL.
+      *----------------------------------------------------------------*
+      * SUBPROGRAM FOR SELECTED BOOK INFO DISPLAY - DB2 VERSION        *
+      *----------------------------------------------------------------*
+      * - DISPLAY BOOK INFO PASSED THROUGH COMMAREA FROM MAIN PROGRAM  *
+      * - HAS SCROLLING FUNCTIONALITY FOR MULTIPLE SELECTIONS          *
+      * - ONLY T1DB IS ALLOWED TO CALL THIS SUBPROGRAM                 *
+      * - DISPLAY INFO BEFORE DELETE CONFIRMATION                      *
+      * - DISPLAY CURRENT INFO BEFORE UPDATE CONFIRMATION              *
+      * - EDITABLE INFO FIELDS IN UPDATE/INSERT MODE                   *
+      * - EXECUTES JCL TO GENERATE REPORT UPON TERMINATION             *
+      *                                                                *
+      * CHANGELOG:                                                     *
+      * APRIL 22,2020 - CHANGED CODE TO COBOL 2               (0422C2) *
+      *               - QUERY DB2 FOR DETAILS                 (0422SQ) *
+      * APRIL 23,2020 - ADDED NULL INDICATORS                 (0423NI) *
+      *               - FIXED SEARCH ALGORITHM                (0423SQ) *
+      * APRIL 24,2020 X EDIT MAP AESTHETICS                   (0424MP) *
+      * APRIL 27,2020 - REBUILD QUEUE AFTER ADD/DELETE/UPDATE (0427RQ) *
+      *               - FIX DISPLAY FOR NUMERIC NULL FIELDS   (0427NI) *
+      *               - SELECT/ADD/DELETE/UPDATE MODE         (0427MD) *
+      *               - DELETE INTERFACE                      (0427DE) *
+      *               - UPDATE INTERFACE                      (0427UP) *
+      * APRIL 28,2020 - EDITABLE FIELDS FOR ADD/UPDATE        (0428EF) *
+      *               - REFACTORED CODE AND ERROR HANDLING    (0428RC) *
+      *               - PROCESS CONFIRMATION INPUT            (0428IN) *
+      *               - PROCESS DELETION                      (0428DE) *
+      *               - PROCESS UPDATE                        (0428UP) *
+      * APRIL 29,2020 - PROCESS UPDATE                        (0429UP) *
+      *               - RATING DECIMAL FORMAT                 (0429RT) *
+      *               - ERROR HANDLING FOR WRONG INPUT FORMAT (0429ER) *
+      *               - HOLD FETCH AFTER ACTION CONFIRMATION  (0429FT) *
+      *               - INITIAL CURSOR WHEN EDITING FIELDS    (0429IC) *
+      * APRIL 30,2020 - LEADING AND TRAILING SPACES HANDLE    (0430SP) *
+      *               - ERROR HANDLING FOR WRONG INPUT FORMAT (0430ER) *
+      *               - RATING DECIMAL FORMAT                 (0430RT) *
+      *               - ADD RECORD                            (0430AD) *
+      * MAY   04,2020 - FIX INTERFACE                         (0504FI) *
+      * MAY   15,2020 - LINK TO SUBPGM FOR JCL BATCH REPORT   (0515RP) *
+      *                                                                *
+      * PARAGRAPHS:                                                    *
+      * 0000-MAIN                      3120-PROCESS-UPDATE             *
+      * 1000-REFRESH-PAGE              3121-CHECK-FIELDS               *
+      * 1100-READ-FROM-QUEUE-SEL       3121-A-FETCH-PUBID              *
+      * 1200-READ-FROM-QUEUE-DEL       3121-B-FETCH-ISBN               *
+      * 1300-READ-FROM-QUEUE-UPD       3121-C-FETCH-RATING             *
+      * 1400-FILL-MAP                  3121-D-FETCH-PAGES              *
+      * 1410-QUERY-DATABASE            3121-E-FETCH-TITLE              *
+      * 1420-PROCESS-INFO              3122-PREP-DCLGEN-VARS           *
+      * 1430-MOVE-INFO                 3123-UPDATE-ROW                 *
+      * 1500-DISPLAY-MAP               3200-RETURN                     *
+      * 1510-UNPROTECT-FIELDS          3300-PAGE-UP                    *
+      * 2000-RECEIVE-MAP               3400-PAGE-DOWN                  *
+      * 3000-CHECK-PFKEYS              9999-ERROR-HANDLING             *
+      * 3100-ENTER                     9999-TERMINATE                  *
+      * 3110-PROCESS-DELETE                                            *
+      *----------------------------------------------------------------*
+       ENVIRONMENT DIVISION.
+      *--------------------
+      *-------------
+       DATA DIVISION.
+      *-------------
+       WORKING-STORAGE SECTION.
+       01  WS-VARIABLES.
+           05  WS-BOOK-INFO.
+               10  WS-BOOK-ID        PIC 9(08)        VALUE 0     .
+               10  WS-TITLE.
+                   15  WS-TITLE1     PIC X(42)        VALUE SPACES.
+                   15  WS-TITLE2     PIC X(42)        VALUE SPACES.
+                   15  WS-TITLE3     PIC X(42)        VALUE SPACES.
+                   15  WS-TITLE4     PIC X(42)        VALUE SPACES.
+               10  WS-TOTAL-PAGES    PIC 9(04)        VALUE 0     .
+               10  WS-RATING-TEXT    PIC X(05)        VALUE SPACES.
+               10  WS-RATING-FMT     REDEFINES WS-RATING-TEXT
+                                     PIC 99.99.
+               10  WS-ISBN           PIC X(13)        VALUE SPACES.
+               10  WS-PUBLISHED-DATE PIC X(10)        VALUE SPACES.
+               10  WS-PUBLISHER-ID   PIC 9(04)        VALUE 0     .
+0422SQ     05  WS-QUEUE-ID           PIC 9(08)        VALUE 0     .
+0422SQ     05  WS-QUEUE-ID-NUM       PIC S9(09) COMP  VALUE 0.
+0423NI     05  WS-NULL-INDICATORS.
+0423NI         10  IND-TOTAL-PAGES   PIC S9(04) COMP  VALUE 0.
+0423NI         10  IND-RATING        PIC S9(04) COMP  VALUE 0.
+0423NI         10  IND-ISBN          PIC S9(04) COMP  VALUE 0.
+0423NI         10  IND-PUB-DATE      PIC S9(04) COMP  VALUE 0.
+0423NI         10  IND-PUB-ID        PIC S9(04) COMP  VALUE 0.
+           05  WS-SWITCHES.
+0429UP         10  WS-UPDATE-SW      PIC 9            VALUE 0.
+0429UP             88  UPDATE                         VALUE 1.
+0429FT         10  WS-FETCH-SW       PIC 9            VALUE 0.
+0429FT             88  FETCH                          VALUE 1.
+0430AD         10  WS-CONFIRM-ADD-SW PIC 9            VALUE 0.
+0430AD             88  CONFIRM-ADD                    VALUE 1.
+0429RT     05  WS-RATING-NUM         PIC 99V99        VALUE 0.
+0429RT     05  WS-RATING-NUM-FMT     REDEFINES WS-RATING-NUM.
+0429RT         10  WS-RATING-INT     PIC 99.
+0429RT         10  WS-RATING-DEC     PIC XX.
+           05  WS-COUNTERS.
+0430SP         10  WS-LEAD-CTR       PIC 99           VALUE 0.
+0430SP         10  WS-TRAIL-CTR      PIC 99           VALUE 0.
+0430RT         10  WS-DOT-CTR        PIC 9            VALUE 0.
+0430RT         10  WS-RATING-INT-CTR PIC 9            VALUE 0.
+0430SP     05  WS-STRING-POS.
+0430SP         10  WS-OFFSET         PIC 99           VALUE 0.
+0430SP         10  WS-LENGTH         PIC 99           VALUE 0.
+
+       01  WS-CONST-VARS.
+           05  WS-TRNIDS.
+               10  WS-LIST-TRNID    PIC X(04)         VALUE 'T1DB'.
+               10  WS-INFO-TRNID    PIC X(04)         VALUE 'T2DB'.
+           05  WS-PGMIDS.
+               10  WS-LIST-PGMID    PIC X(08)         VALUE 'TRAN1DB2'.
+           05  WS-MAPIDS.
+               10  WS-INFOMAP-NAME  PIC X(07)         VALUE 'INFOMAP'.
+               10  WS-INFOSET-NAME  PIC X(07)         VALUE 'INFOSET'.
+
+       01  WS-SYS-VARS.
+           05  WS-SEND-MSG          PIC  X(80)        VALUE SPACES.
+           05  EVAL-CODE            PIC S9(08) COMP   VALUE 0.
+0428RC         88  ERR-OK                             VALUE 0.
+0429ER         88  ERR-DEC                            VALUE -310.
+0429ER         88  ERR-DATE                           VALUE -181
+0429ER                                                      -180.
+0430AD         88  ERR-ID                             VALUE -803.
+
+       01  WS-ERROR.
+           05  FILLER               PIC X(09)         VALUE 'ERROR AT '.
+           05  ERR-LOC              PIC X(32)         VALUE SPACES     .
+           05  FILLER               PIC X(05)         VALUE ' RC: '    .
+           05  ERR-CODE             PIC X(08)         VALUE SPACES     .
+           05  FILLER               PIC X(06)         VALUE ' MSG: '   .
+           05  ERR-MSG              PIC X(20)         VALUE SPACES     .
+
+      **COPYBOOK FOR SYMBOLIC MAP
+       COPY INFOSET.
+
+       COPY DFHAID.
+0427MD COPY DFHBMSCA.
+
+0422SQ**SQL COPYBOOKS
+0422SQ     EXEC SQL INCLUDE SQLCA END-EXEC.
+0422SQ     EXEC SQL INCLUDE DCLBOOKS END-EXEC.
+
+       01  WS-COMMAREA.
+           05  WS-PG-NUM            PIC S9(04) COMP   VALUE 1.
+           05  WS-TOTAL-PG          PIC S9(04) COMP   VALUE 1.
+           05  WS-SEL-NUM           PIC S9(04) COMP   VALUE 1.
+           05  WS-TOTAL-SEL         PIC S9(04) COMP   VALUE 1.
+0423SQ     05  WS-SRCH-NUM          PIC S9(04) COMP   VALUE 1.
+0423SQ     05  WS-TOTAL-SRCH        PIC S9(04) COMP   VALUE 1.
+0427DE     05  WS-DEL-NUM           PIC S9(04) COMP   VALUE 1.
+0427DE     05  WS-TOTAL-DEL         PIC S9(04) COMP   VALUE 1.
+0427UP     05  WS-UPD-NUM           PIC S9(04) COMP   VALUE 1.
+0427UP     05  WS-TOTAL-UPD         PIC S9(04) COMP   VALUE 1.
+           05  WS-SEARCH-STR        PIC  X(58)        VALUE SPACES.
+               88  NOSEARCH                           VALUE SPACES.
+           05  WS-PAGE-QUEUE-NAME.
+               10  WS-PQ-TRNID      PIC X(04)         VALUE 'T1DB'.
+               10  WS-PQ-TRMID      PIC X(04)         VALUE 'L702'.
+           05  WS-SEL-QUEUE-NAME.
+               10  WS-SL-TRNID      PIC X(04)         VALUE 'SELQ'.
+               10  WS-SL-TRMID      PIC X(04)         VALUE 'L702'.
+0423SQ     05  WS-SRCH-QUEUE-NAME.
+0423SQ         10  WS-SR-TRNID      PIC X(04)         VALUE 'T1SQ'.
+0423SQ         10  WS-SR-TRMID      PIC X(04)         VALUE 'L702'.
+0427DE     05  WS-DEL-QUEUE-NAME.
+0427DE         10  WS-DL-TRNID      PIC X(04)         VALUE 'DELQ'.
+0427DE         10  WS-DL-TRMID      PIC X(04)         VALUE 'L702'.
+0427UP     05  WS-UPD-QUEUE-NAME.
+0427UP         10  WS-UP-TRNID      PIC X(04)         VALUE 'UPDQ'.
+0427UP         10  WS-UP-TRMID      PIC X(04)         VALUE 'L702'.
+0427RQ     05  WS-REBUILD-SW        PIC 9             VALUE 0.
+0427RQ         88  REBUILD                            VALUE 1.
+0430AD     05  WS-ADD-RECORD-SW     PIC 9             VALUE 0.
+0430AD         88  ADD-RECORD                         VALUE 1.
+0515RP     05  WS-RJCL-PGMID        PIC X(08)         VALUE 'CICSRJCL'.
+
+       LINKAGE SECTION.
+       01  DFHCOMMAREA.
+           05  LS-PG-NUM            PIC S9(04) COMP.
+           05  LS-TOTAL-PG          PIC S9(04) COMP.
+           05  LS-SEL-NUM           PIC S9(04) COMP.
+           05  LS-TOTAL-SEL         PIC S9(04) COMP.
+0423SQ     05  LS-SRCH-NUM          PIC S9(04) COMP.
+0423SQ     05  LS-TOTAL-SRCH        PIC S9(04) COMP.
+0427DE     05  LS-DEL-NUM           PIC S9(04) COMP.
+0427DE     05  LS-TOTAL-DEL         PIC S9(04) COMP.
+0427UP     05  LS-UPD-NUM           PIC S9(04) COMP.
+0427UP     05  LS-TOTAL-UPD         PIC S9(04) COMP.
+           05  LS-SEARCH-STR        PIC  X(58).
+           05  LS-PAGE-QUEUE-NAME   PIC X(08).
+           05  LS-SEL-QUEUE-NAME    PIC X(08).
+0423SQ     05  LS-SRCH-QUEUE-NAME   PIC X(08).
+0427DE     05  LS-DEL-QUEUE-NAME    PIC X(08).
+0427UP     05  LS-UPD-QUEUE-NAME    PIC X(08).
+0427RQ     05  LS-REBUILD-SW        PIC 9.
+0430AD     05  LS-ADD-RECORD-SW     PIC 9.
+0515RP     05  LS-RJCL-PGMID        PIC X(08).
+
+      *------------------
+       PROCEDURE DIVISION.
+      *------------------
+       0000-MAIN.
+            MOVE '0000-MAIN' TO ERR-LOC
+
+0422C2      MOVE LOW-VALUES TO INFOMAPO
+0429FT      SET  FETCH      TO TRUE
+0429UP      INITIALIZE WS-BOOK-INFO
+
+            IF EIBCALEN = 0
+               MOVE 'CALL FROM TERMINAL NOT ALLOWED' TO WS-SEND-MSG
+               PERFORM 9999-TERMINATE
+            ELSE
+               MOVE DFHCOMMAREA TO WS-COMMAREA
+
+0422CB         EVALUATE EIBTRNID
+0422CB             WHEN WS-LIST-TRNID
+0427MD                  MOVE 1 TO WS-SEL-NUM
+0427DE                            WS-DEL-NUM
+0427UP                            WS-UPD-NUM
+
+                        PERFORM 1000-REFRESH-PAGE
+0422CB             WHEN WS-INFO-TRNID
+0427MD                  PERFORM 2000-RECEIVE-MAP
+                        PERFORM 3000-CHECK-PFKEYS
+0422CB             WHEN OTHER
+                        MOVE 'INVALID CALLEE TRANSACTION' TO WS-SEND-MSG
+                        PERFORM 9999-TERMINATE
+0422CB         END-EVALUATE
+0422CB      END-IF
+
+            EXEC CICS
+                 RETURN TRANSID  (WS-INFO-TRNID)
+                        COMMAREA (WS-COMMAREA)
+                        RESP     (EVAL-CODE)
+            END-EXEC
+
+            IF EVAL-CODE NOT = DFHRESP (NORMAL)
+               MOVE 'RETURN TRANSID' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422CB      END-IF
+            .
+
+       1000-REFRESH-PAGE.
+            MOVE '1000-REFRESH-PAGE' TO ERR-LOC
+
+0427MD      EVALUATE TRUE
+0427DE          WHEN WS-TOTAL-DEL > 0
+0427DE               PERFORM 1200-READ-FROM-QUEUE-DEL
+0427UP          WHEN WS-TOTAL-UPD > 0
+0427UP               PERFORM 1300-READ-FROM-QUEUE-UPD
+0427MD          WHEN WS-TOTAL-SEL > 0
+                     PERFORM 1100-READ-FROM-QUEUE-SEL
+0430AD          WHEN ADD-RECORD
+0430AD               INITIALIZE WS-FETCH-SW
+0427MD          WHEN OTHER
+0427MD               PERFORM 3200-RETURN
+0427MD      END-EVALUATE
+
+0429FT      IF FETCH
+               PERFORM 1400-FILL-MAP
+0429FT      END-IF
+
+            PERFORM 1500-DISPLAY-MAP
+            .
+
+       1100-READ-FROM-QUEUE-SEL.
+            MOVE '1100-READ-FROM-QUEUE-SEL' TO ERR-LOC
+
+            EXEC CICS
+                 READQ TS
+                       QUEUE (WS-SEL-QUEUE-NAME)
+0422SQ                 INTO  (WS-QUEUE-ID)
+                       ITEM  (WS-SEL-NUM)
+                       RESP  (EVAL-CODE)
+            END-EXEC
+
+            IF EVAL-CODE NOT = DFHRESP (NORMAL)
+               MOVE 'READQ TS' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422CB      END-IF
+            .
+
+0427DE 1200-READ-FROM-QUEUE-DEL.
+0427DE      MOVE '1200-READ-FROM-QUEUE-DEL' TO ERR-LOC
+
+            EXEC CICS
+                 READQ TS
+0427DE                 QUEUE (WS-DEL-QUEUE-NAME)
+0427SQ                 INTO  (WS-QUEUE-ID)
+0427DE                 ITEM  (WS-DEL-NUM)
+                       RESP  (EVAL-CODE)
+            END-EXEC
+
+            IF EVAL-CODE NOT = DFHRESP (NORMAL)
+               MOVE 'READQ TS' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422CB      END-IF
+            .
+
+0427UP 1300-READ-FROM-QUEUE-UPD.
+0427UP      MOVE '1300-READ-FROM-QUEUE-UPD' TO ERR-LOC
+
+            EXEC CICS
+                 READQ TS
+0427UP                 QUEUE (WS-UPD-QUEUE-NAME)
+0422SQ                 INTO  (WS-QUEUE-ID)
+0427UP                 ITEM  (WS-UPD-NUM)
+                       RESP  (EVAL-CODE)
+            END-EXEC
+
+            IF EVAL-CODE NOT = DFHRESP (NORMAL)
+               MOVE 'READQ TS' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422CB      END-IF
+            .
+
+       1400-FILL-MAP.
+            MOVE '1400-FILL-MAP' TO ERR-LOC
+
+0422SQ      MOVE WS-QUEUE-ID TO WS-QUEUE-ID-NUM
+
+0428RC      PERFORM 1410-QUERY-DATABASE
+0428RC      PERFORM 1420-PROCESS-INFO
+0428RC      PERFORM 1430-MOVE-INFO
+            .
+
+0428RC 1410-QUERY-DATABASE.
+0428RC      MOVE '1410-QUERY-DATABASE' TO ERR-LOC
+
+0429UP      INITIALIZE DCLBOOKS
+
+0422SQ      EXEC SQL
+0422SQ           SELECT BOOK_ID
+0422SQ                 ,TITLE
+0422SQ                 ,TOTAL_PAGES
+0422SQ                 ,RATING
+0422SQ                 ,ISBN
+0422SQ                 ,PUBLISHED_DATE
+0422SQ                 ,PUBLISHER_ID
+0422SQ             INTO :TBLBKS-BOOK-ID
+0422SQ                 ,:TBLBKS-TITLE
+0423NI                 ,:TBLBKS-TOTAL-PAGES    :IND-TOTAL-PAGES
+0423NI                 ,:TBLBKS-RATING         :IND-RATING
+0423NI                 ,:TBLBKS-ISBN           :IND-ISBN
+0423NI                 ,:TBLBKS-PUBLISHED-DATE :IND-PUB-DATE
+0423NI                 ,:TBLBKS-PUBLISHER-ID   :IND-PUB-ID
+0422SQ             FROM IBMUSER.BOOKS
+0422SQ            WHERE BOOK_ID = :WS-QUEUE-ID-NUM
+0422SQ      END-EXEC
+0428RC      MOVE SQLCODE TO EVAL-CODE
+
+            IF NOT ERR-OK
+               MOVE 'SELECT FROM BOOKS' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+            END-IF
+            .
+
+0428RC 1420-PROCESS-INFO.
+0428RC      MOVE '1420-PROCESS-INFO' TO ERR-LOC
+
+0429UP      INITIALIZE WS-BOOK-INFO
+0429UP      MOVE SPACES TO WS-RATING-TEXT
+
+0422SQ      MOVE TBLBKS-BOOK-ID             TO WS-BOOK-ID
+0422SQ      MOVE TBLBKS-TITLE-TEXT          TO WS-TITLE
+
+0423NI      IF IND-TOTAL-PAGES = -1
+0423NI           MOVE 0                     TO WS-TOTAL-PAGES
+0423NI      ELSE
+0422SQ           MOVE TBLBKS-TOTAL-PAGES    TO WS-TOTAL-PAGES
+0423NI      END-IF
+
+0423NI      IF IND-RATING      = -1
+0423NI           MOVE SPACES                TO WS-RATING-TEXT
+0423NI      ELSE
+0422SQ           MOVE TBLBKS-RATING         TO WS-RATING-FMT
+0423NI      END-IF
+
+0423NI      IF IND-ISBN        = -1
+0423NI           MOVE SPACES                TO WS-ISBN
+0423NI      ELSE
+0422SQ           MOVE TBLBKS-ISBN-TEXT      TO WS-ISBN
+0423NI      END-IF
+
+0423NI      IF IND-PUB-DATE    = -1
+0423NI           MOVE SPACES                TO WS-PUBLISHED-DATE
+0423NI      ELSE
+0422SQ           MOVE TBLBKS-PUBLISHED-DATE TO WS-PUBLISHED-DATE
+0423NI      END-IF
+
+0423NI      IF IND-PUB-ID      = -1
+0423NI           MOVE 0                     TO WS-PUBLISHER-ID
+0423NI      ELSE
+0422SQ           MOVE TBLBKS-PUBLISHER-ID   TO WS-PUBLISHER-ID
+0423NI      END-IF
+            .
+
+0428RC 1430-MOVE-INFO.
+0428RC      MOVE '1430-MOVE-INFO' TO ERR-LOC
+
+            MOVE WS-BOOK-ID              TO BKIDNUMO
+            MOVE WS-TITLE1               TO BTITLE1O
+            MOVE WS-TITLE2               TO BTITLE2O
+            MOVE WS-TITLE3               TO BTITLE3O
+            MOVE WS-TITLE4               TO BTITLE4O
+
+0427NI      IF WS-TOTAL-PAGES  = 0
+0427NI         MOVE SPACES               TO BKPAGESO
+0427NI      ELSE
+               MOVE WS-TOTAL-PAGES       TO BKPAGESO
+0427NI      END-IF
+
+0427NI      IF WS-RATING-FMT   = 0
+0427NI         MOVE SPACES               TO BKRATNGO
+0427NI      ELSE
+               MOVE WS-RATING-FMT        TO BKRATNGO
+0427NI      END-IF
+
+            MOVE WS-ISBN                 TO BKISBNO
+            MOVE WS-PUBLISHED-DATE       TO BKPBDATO
+
+0427NI      IF WS-PUBLISHER-ID = 0
+0427NI         MOVE SPACES               TO BKPUBIDO
+0427NI      ELSE
+               MOVE WS-PUBLISHER-ID      TO BKPUBIDO
+0427NI      END-IF
+            .
+
+       1500-DISPLAY-MAP.
+            MOVE '1500-DISPLAY-MAP' TO ERR-LOC
+
+            MOVE WS-INFO-TRNID TO TRANSIDO
+
+0428EF*     SET MDT TO 1,ATTRB=PROT
+0428EF      MOVE DFHBMPRF TO BKIDNUMF
+            MOVE -1 TO CONFRMIL
+
+0427MD      EVALUATE TRUE
+0427DE          WHEN WS-TOTAL-DEL > 0
+0427DE               MOVE 'DELETE MODE:CONFIRM DELETE(Y/N)?' TO MODEMSGO
+0504FI               MOVE SPACES TO PAGEUO
+0504FI                              PAGEDO
+0427UP          WHEN WS-TOTAL-UPD > 0
+0427UP               MOVE 'UPDATE MODE:CONFIRM UPDATE(Y/N)?' TO MODEMSGO
+0504FI               MOVE SPACES TO PAGEUO
+0504FI                              PAGEDO
+                     PERFORM 1510-UNPROTECT-FIELDS
+0430AD          WHEN ADD-RECORD
+0504FI               MOVE SPACES TO PAGEUO
+0504FI                              PAGEDO
+0430AD               MOVE 'INSERT MODE:CONFIRM INSERT(Y/N)?' TO MODEMSGO
+0430AD               PERFORM 1510-UNPROTECT-FIELDS
+0427MD          WHEN OTHER
+0427MD               MOVE DFHBMASK TO CONFRMIA
+0504FI               MOVE 0 TO CONFRMIL
+0427MD      END-EVALUATE
+
+            EXEC CICS
+                 SEND MAP    (WS-INFOMAP-NAME)
+                      MAPSET (WS-INFOSET-NAME)
+                      FROM   (INFOMAPO)
+                      RESP   (EVAL-CODE)
+0429IC                CURSOR
+            END-EXEC
+
+            IF EVAL-CODE NOT = DFHRESP (NORMAL)
+               MOVE 'SEND MAP' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422CB      END-IF
+            .
+
+0428EF 1510-UNPROTECT-FIELDS.
+0428EF      MOVE '1510-UNPROTECT-FIELDS' TO ERR-LOC
+
+0428EF*     ATTRB = UNPROT, SET MDT TO 1
+0428EF      MOVE DFHUNIMD TO BTITLE1A
+0428EF                       BTITLE2A
+0428EF                       BTITLE3A
+0428EF                       BTITLE4A
+0428EF                       BKPAGESA
+0428EF                       BKRATNGA
+0428EF                       BKISBNA
+0428EF                       BKPBDATA
+0428EF                       BKPUBIDA
+0504FI                       CONFRMIH
+
+0428EF*     HILIGHT = UNDERLINE
+0428EF      MOVE DFHUNDLN TO BTITLE1H
+0428EF                       BTITLE2H
+0428EF                       BTITLE3H
+0428EF                       BTITLE4H
+0428EF                       BKPAGESH
+0428EF                       BKRATNGH
+0428EF                       BKISBNH
+0428EF                       BKPBDATH
+0428EF                       BKPUBIDH
+0504FI                       CONFRMIH
+
+0430AD      IF ADD-RECORD
+0430AD         MOVE DFHUNIMD TO BKIDNUMA
+0430AD         MOVE DFHUNDLN TO BKIDNUMH
+0430AD      END-IF
+0428EF      .
+
+0427MD 2000-RECEIVE-MAP.
+            MOVE '2000-RECEIVE-MAP' TO ERR-LOC
+
+            EXEC CICS
+                 RECEIVE MAP    (WS-INFOMAP-NAME)
+                         MAPSET (WS-INFOSET-NAME)
+                         INTO   (INFOMAPI)
+                         RESP   (EVAL-CODE)
+                         ASIS
+            END-EXEC
+
+0422C2      IF EVAL-CODE NOT = DFHRESP(NORMAL)
+               MOVE 'RECEIVE MAP' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422C2      END-IF
+            .
+
+       3000-CHECK-PFKEYS.
+            MOVE '3000-CHECK-PFKEYS'  TO ERR-LOC
+
+0422CB      EVALUATE EIBAID
+0422CB          WHEN DFHENTER
+                     PERFORM 3100-ENTER
+0422CB          WHEN DFHPF3
+0504FI               MOVE 0 TO WS-TOTAL-DEL
+0504FI                         WS-TOTAL-UPD
+0504FI                         WS-TOTAL-SEL
+0504FI               INITIALIZE WS-ADD-RECORD-SW
+                     PERFORM 3200-RETURN
+0422CB          WHEN DFHPF7
+0504FI               EVALUATE TRUE
+0504FI                   WHEN WS-TOTAL-DEL > 0
+0504FI                   WHEN WS-TOTAL-UPD > 0
+0504FI                   WHEN ADD-RECORD
+0504FI                        MOVE 'INVALID KEY PRESSED' TO MESSAGEO
+0504FI                        PERFORM 1000-REFRESH-PAGE
+0504FI                   WHEN OTHER
+                              PERFORM 3300-PAGE-UP
+0504FI               END-EVALUATE
+0422CB          WHEN DFHPF8
+0504FI               EVALUATE TRUE
+0504FI                   WHEN WS-TOTAL-DEL > 0
+0504FI                   WHEN WS-TOTAL-UPD > 0
+0504FI                   WHEN ADD-RECORD
+0504FI                        MOVE 'INVALID KEY PRESSED' TO MESSAGEO
+0504FI                        PERFORM 1000-REFRESH-PAGE
+0504FI                   WHEN OTHER
+                              PERFORM 3400-PAGE-DOWN
+0504FI               END-EVALUATE
+0422CB          WHEN DFHPF12
+0515RP               EXEC CICS LINK
+0515RP                    PROGRAM (WS-RJCL-PGMID)
+0515RP                    RESP    (EVAL-CODE)
+0515RP               END-EXEC
+
+0515RP               IF EVAL-CODE NOT = DFHRESP (NORMAL)
+0515RP                  MOVE 'LINK PROGRAM' TO ERR-MSG
+0515RP                  PERFORM 9999-ERROR-HANDLING
+0515RP               END-IF
+
+                     MOVE 'TRANSACTION TERMINATED' TO WS-SEND-MSG
+                     PERFORM 9999-TERMINATE
+0422CB          WHEN OTHER
+                     MOVE 'INVALID KEY PRESSED' TO MESSAGEO
+                     PERFORM 1000-REFRESH-PAGE
+0422CB      END-EVALUATE
+            .
+
+0427MD 3100-ENTER.
+0427MD      MOVE '3100-ENTER' TO ERR-LOC
+
+0427MD      EVALUATE TRUE
+0427DE          WHEN WS-TOTAL-DEL > 0
+0428DE               PERFORM 3110-PROCESS-DELETE
+0427UP          WHEN WS-TOTAL-UPD > 0
+0428UP               PERFORM 3120-PROCESS-UPDATE
+0430AD          WHEN ADD-RECORD
+0430AD               PERFORM 3130-PROCESS-ADD
+0427MD          WHEN OTHER
+0428IN               CONTINUE
+0427MD      END-EVALUATE
+
+0427MD      MOVE SPACES TO CONFRMIO
+0427MD      PERFORM 1000-REFRESH-PAGE
+0427MD      .
+
+0428DE 3110-PROCESS-DELETE.
+0428DE      MOVE '3110-PROCESS-DELETE' TO ERR-LOC
+
+0428DE      MOVE BKIDNUMO TO TBLBKS-BOOK-ID
+
+0428DE      EVALUATE FUNCTION UPPER-CASE(CONFRMIO)
+0428DE          WHEN 'Y'
+0428DE               EXEC SQL
+0428DE                    DELETE FROM IBMUSER.BOOKS
+0428DE                           WHERE BOOK_ID = :TBLBKS-BOOK-ID
+0428DE               END-EXEC
+0428DE               MOVE SQLCODE TO EVAL-CODE
+
+0428DE               IF ERR-OK
+0428DE                  SET REBUILD TO TRUE
+0428DE               ELSE
+0428DE                  MOVE 'DELETE FROM BOOKS' TO ERR-MSG
+0428DE                  PERFORM 9999-ERROR-HANDLING
+0428DE               END-IF
+0428DE
+0428DE               ADD 1 TO WS-DEL-NUM
+0428DE          WHEN 'N'
+0428DE               ADD 1 TO WS-DEL-NUM
+0428DE          WHEN OTHER
+0428DE               MOVE 'PLEASE TYPE Y OR N ONLY' TO MESSAGEO
+0428DE      END-EVALUATE
+
+0427DE      IF WS-DEL-NUM > WS-TOTAL-DEL
+0427DE         MOVE 0 TO WS-TOTAL-DEL
+0427DE      END-IF
+0428DE      .
+
+0428UP 3120-PROCESS-UPDATE.
+0428UP      MOVE '3120-PROCESS-UPDATE' TO ERR-LOC
+
+0429FT      INITIALIZE WS-FETCH-SW
+0429UP      SET  UPDATE   TO TRUE
+0428UP      MOVE BKIDNUMO TO TBLBKS-BOOK-ID
+
+0428UP      EVALUATE FUNCTION UPPER-CASE(CONFRMIO)
+0428UP          WHEN 'Y'
+0429UP               PERFORM 3121-CHECK-FIELDS
+0429UP               PERFORM 3122-PREP-DCLGEN-VARS
+
+0429UP               IF UPDATE
+0428UP                  PERFORM 3123-UPDATE-ROW
+0429UP               END-IF
+0428UP          WHEN 'N'
+0428UP               ADD  1 TO WS-UPD-NUM
+0430AD               SET FETCH TO TRUE
+0428UP          WHEN OTHER
+0428UP               MOVE 'PLEASE TYPE Y OR N ONLY' TO MESSAGEO
+            END-EVALUATE
+
+0427UP      IF WS-UPD-NUM > WS-TOTAL-UPD
+0427UP         MOVE 0 TO WS-TOTAL-UPD
+0427UP      END-IF
+0428UP      .
+
+0429UP 3121-CHECK-FIELDS.
+0429UP      MOVE '3121-CHECK-FIELDS' TO ERR-LOC
+
+0429UP      IF BKPUBIDO = SPACES OR LOW-VALUES
+0429UP         MOVE -1 TO IND-PUB-ID
+0429UP      ELSE
+0429UP         PERFORM 3121-A-FETCH-PUBID
+0429UP      END-IF
+
+0429UP      IF BKPBDATO = SPACES OR LOW-VALUES
+0429UP         MOVE -1       TO IND-PUB-DATE
+0429UP      ELSE
+0429UP         MOVE BKPBDATO TO WS-PUBLISHED-DATE
+0429UP      END-IF
+
+0429UP      IF BKISBNO  = SPACES OR LOW-VALUES
+0429UP         MOVE -1 TO IND-ISBN
+0429UP      ELSE
+0429UP         PERFORM 3121-B-FETCH-ISBN
+0429UP      END-IF
+
+0429UP      IF BKRATNGO = SPACES OR LOW-VALUES
+0429UP         MOVE -1 TO IND-RATING
+0429UP      ELSE
+0429UP         PERFORM 3121-C-FETCH-RATING
+0429UP      END-IF
+
+0429UP      IF BKPAGESO = SPACES OR LOW-VALUES
+0429UP         MOVE -1 TO IND-TOTAL-PAGES
+0429UP      ELSE
+0429UP         PERFORM 3121-D-FETCH-PAGES
+0429UP      END-IF
+
+0428UP      IF  (BTITLE1O = SPACES OR LOW-VALUES)
+0428UP      AND (BTITLE2O = SPACES OR LOW-VALUES)
+0428UP      AND (BTITLE3O = SPACES OR LOW-VALUES)
+0428UP      AND (BTITLE4O = SPACES OR LOW-VALUES)
+0428UP         MOVE 'BOOK TITLE CANNOT BE NULL' TO MESSAGEO
+0429UP         MOVE -1                          TO BTITLE1L
+0429UP         INITIALIZE WS-UPDATE-SW
+0430AD                    WS-CONFIRM-ADD-SW
+0428UP      ELSE
+0429UP         PERFORM 3121-E-FETCH-TITLE
+0429UP      END-IF
+
+0430AD      IF ADD-RECORD
+0430AD         IF BKIDNUMO = SPACES OR LOW-VALUES
+0430AD            MOVE 'BOOK ID CANNOT BE NULL' TO MESSAGEO
+0430AD            MOVE -1                       TO BKIDNUML
+0430AD            INITIALIZE WS-CONFIRM-ADD-SW
+0430AD         ELSE
+0430AD            PERFORM 3121-F-FETCH-ID
+0430AD         END-IF
+0430AD      END-IF
+0429UP      .
+
+0429UP 3121-A-FETCH-PUBID.
+0429UP      MOVE '3121-A-FETCH-PUBID' TO ERR-LOC
+
+      *     VALID INPUTS: INTEGER OF ANY LENGTH IN ANY PLACE
+
+0430SP      INITIALIZE WS-TRAIL-CTR
+0430SP                 WS-LEAD-CTR
+
+0430SP      INSPECT BKPUBIDO
+0430SP              TALLYING WS-LEAD-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      INSPECT FUNCTION REVERSE (BKPUBIDO)
+0430SP              TALLYING WS-TRAIL-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      COMPUTE WS-OFFSET = WS-LEAD-CTR + 1
+0430SP      COMPUTE WS-LENGTH = LENGTH OF BKPUBIDO - WS-TRAIL-CTR
+                                                   - WS-LEAD-CTR
+
+0430SP      IF BKPUBIDO(WS-OFFSET:WS-LENGTH) IS NUMERIC
+0430SP         MOVE BKPUBIDO(WS-OFFSET:WS-LENGTH)  TO WS-PUBLISHER-ID
+0429UP      ELSE
+0429UP         MOVE 'PUBLISHER ID MUST BE NUMERIC' TO MESSAGEO
+0429UP         MOVE -1                             TO BKPUBIDL
+0429UP         INITIALIZE WS-UPDATE-SW
+0430AD                    WS-CONFIRM-ADD-SW
+0429UP      END-IF
+0429UP      .
+
+0429UP 3121-B-FETCH-ISBN.
+0429UP      MOVE '3121-B-FETCH-ISBN' TO ERR-LOC
+
+      *     VALID INPUTS: INTEGER OF LENGTH 13
+
+0430SP      INITIALIZE WS-TRAIL-CTR
+0430SP                 WS-LEAD-CTR
+
+0429UP      IF BKISBNO IS NUMERIC
+0429UP         MOVE BKISBNO TO WS-ISBN
+0429UP      ELSE
+0429UP         MOVE 'ISBN MUST BE A 13 DIGIT NUMBER' TO MESSAGEO
+0429UP         MOVE -1                               TO BKISBNL
+0429UP         INITIALIZE WS-UPDATE-SW
+0430AD                    WS-CONFIRM-ADD-SW
+0429UP      END-IF
+0429UP      .
+
+0429UP 3121-C-FETCH-RATING.
+0429UP      MOVE '3121-C-FETCH-RATING' TO ERR-LOC
+
+0430RT*     VALID INPUTS: INTEGER IN ANY PLACE W/ OR W/O DEC. POINT
+0430RT*                   DECIMAL IN ANY PLACE
+0430RT*                   INTEGER + DECIMAL IN ANY PLACE
+0430RT*     ANY LENGTH OF INTEGER AND DECIMAL ARE ACCEPTED
+
+0430SP      INITIALIZE WS-TRAIL-CTR
+0430SP                 WS-LEAD-CTR
+
+0430RT      INSPECT BKRATNGO
+0430RT              TALLYING WS-DOT-CTR
+0430RT              FOR ALL '.'
+
+0430SP      INSPECT BKRATNGO
+0430SP              TALLYING WS-LEAD-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      INSPECT FUNCTION REVERSE (BKRATNGO)
+0430SP              TALLYING WS-TRAIL-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      COMPUTE WS-OFFSET = WS-LEAD-CTR + 1
+0430SP      COMPUTE WS-LENGTH = LENGTH OF BKRATNGO - WS-TRAIL-CTR
+                                                   - WS-LEAD-CTR
+
+0430RT      EVALUATE WS-DOT-CTR
+0430RT          WHEN 0
+0430RT               IF BKRATNGO(WS-OFFSET:WS-LENGTH) IS NUMERIC
+0430RT                  MOVE BKRATNGO(WS-OFFSET:WS-LENGTH)
+0430RT                    TO WS-RATING-INT
+0430RT               ELSE
+0430RT                   MOVE -1 TO BKRATNGL
+0430RT               END-IF
+0430RT          WHEN 1
+0430RT*              SEPARATE INTEGER AND DECIMAL PART OF RATING
+0430RT               UNSTRING BKRATNGO(WS-OFFSET:WS-LENGTH)
+0430RT                        DELIMITED BY '.'
+0430RT                   INTO WS-RATING-INT
+0430RT                        WS-RATING-DEC
+0430RT               END-UNSTRING
+
+0430RT*              PAD WS-RATING-DEC WITH TRAILING 0
+0430RT               IF WS-RATING-DEC(2:1) = SPACE OR LOW-VALUE
+0430RT                  MOVE ZERO TO WS-RATING-DEC(2:1)
+0430RT               END-IF
+
+0430RT               IF WS-RATING-DEC IS NUMERIC
+0430RT*                 CHECK IF WS-RATING-INT IS NUMERIC
+0430RT                  INSPECT BKRATNGO(WS-OFFSET:WS-LENGTH)
+0430RT                          TALLYING WS-RATING-INT-CTR
+0430RT                          FOR CHARACTERS
+0430RT                          BEFORE INITIAL '.'
+
+0430RT                  IF WS-RATING-INT-CTR > 0
+0430RT                  AND BKRATNGO(WS-OFFSET:WS-RATING-INT-CTR)
+0430RT                  IS NOT NUMERIC
+0430RT                     MOVE -1 TO BKRATNGL
+0430RT                  ELSE
+0430RT                     CONTINUE
+0430RT                  END-IF
+0430RT               ELSE
+0430RT                  MOVE -1 TO BKRATNGL
+0430RT               END-IF
+0430RT          WHEN OTHER
+0430RT               MOVE -1 TO BKRATNGL
+0430RT      END-EVALUATE
+
+0430RT      IF BKRATNGL = -1
+0430RT         INITIALIZE WS-UPDATE-SW
+0430AD                    WS-CONFIRM-ADD-SW
+0430RT         MOVE 'RATING FORMAT MUST BE NUMERIC DECIMAL' TO MESSAGEO
+0430RT      END-IF
+0429UP      .
+
+0429UP 3121-D-FETCH-PAGES.
+0429UP      MOVE '3121-D-FETCH-PAGES' TO ERR-LOC
+
+0430SP*     VALID INPUTS: INTEGER OF ANY LENGTH IN ANY PLACE
+
+0430SP      INITIALIZE WS-TRAIL-CTR
+0430SP                 WS-LEAD-CTR
+
+0430SP      INSPECT BKPAGESO
+0430SP              TALLYING WS-LEAD-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      INSPECT FUNCTION REVERSE (BKPAGESO)
+0430SP              TALLYING WS-TRAIL-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      COMPUTE WS-OFFSET = WS-LEAD-CTR + 1
+0430SP      COMPUTE WS-LENGTH = LENGTH OF BKPAGESO - WS-TRAIL-CTR
+                                                   - WS-LEAD-CTR
+
+0430SP      IF BKPAGESO(WS-OFFSET:WS-LENGTH) IS NUMERIC
+0429UP         MOVE BKPAGESO(WS-OFFSET:WS-LENGTH)  TO WS-TOTAL-PAGES
+0429UP      ELSE
+0429UP         MOVE 'NO. OF PAGES MUST BE NUMERIC' TO MESSAGEO
+0429UP         MOVE -1                             TO BKPAGESL
+0429UP         INITIALIZE WS-UPDATE-SW
+0430AD                    WS-CONFIRM-ADD-SW
+0429UP      END-IF
+0429UP      .
+0429UP
+0429UP 3121-E-FETCH-TITLE.
+0429UP      MOVE '3121-E-FETCH-TITLE' TO ERR-LOC
+0429UP
+0429UP      INITIALIZE TBLBKS-TITLE-LEN
+0429UP                 TBLBKS-TITLE-TEXT
+0429UP                 WS-TITLE
+
+0429UP      IF BTITLE1O = LOW-VALUES
+0429UP         MOVE SPACES TO WS-TITLE1
+0429UP      ELSE
+0428UP         MOVE BTITLE1O TO WS-TITLE1
+0429UP      END-IF
+
+0429UP      IF BTITLE2O = LOW-VALUES
+0429UP         MOVE SPACES TO WS-TITLE2
+0429UP      ELSE
+0428UP         MOVE BTITLE2O TO WS-TITLE2
+0429UP      END-IF
+
+0429UP      IF BTITLE3O = LOW-VALUES
+0429UP         MOVE SPACES TO WS-TITLE3
+0429UP      ELSE
+0428UP         MOVE BTITLE3O TO WS-TITLE3
+0429UP      END-IF
+
+0429UP      IF BTITLE4O = LOW-VALUES
+0429UP         MOVE SPACES TO WS-TITLE4
+0429UP      ELSE
+0428UP         MOVE BTITLE4O TO WS-TITLE4
+0429UP      END-IF
+
+0430SP      MOVE LENGTH OF WS-TITLE TO TBLBKS-TITLE-LEN
+0429UP      .
+
+0430AD 3121-F-FETCH-ID.
+0430AD      MOVE '3121-F-FETCH-ID' TO ERR-LOC
+
+0430SP*     VALID INPUTS: INTEGER OF ANY LENGTH IN ANY PLACE
+
+0430SP      INITIALIZE WS-TRAIL-CTR
+0430SP                 WS-LEAD-CTR
+
+0430SP      INSPECT BKIDNUMO
+0430SP              TALLYING WS-LEAD-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      INSPECT FUNCTION REVERSE (BKIDNUMO)
+0430SP              TALLYING WS-TRAIL-CTR
+0430SP              FOR LEADING SPACES
+
+0430SP      COMPUTE WS-OFFSET = WS-LEAD-CTR + 1
+0430SP      COMPUTE WS-LENGTH = LENGTH OF BKIDNUMO - WS-TRAIL-CTR
+                                                   - WS-LEAD-CTR
+
+0430SP      IF BKIDNUMO(WS-OFFSET:WS-LENGTH) IS NUMERIC
+0429UP         MOVE BKIDNUMO(WS-OFFSET:WS-LENGTH)  TO WS-BOOK-ID
+0429UP      ELSE
+0429UP         MOVE 'BOOK ID MUST BE NUMERIC' TO MESSAGEO
+0429UP         MOVE -1                        TO BKIDNUML
+0429UP         INITIALIZE WS-CONFIRM-ADD-SW
+0429UP      END-IF
+0430AD      .
+
+0429UP 3122-PREP-DCLGEN-VARS.
+0429UP      MOVE '3122-PREP-DCLGEN-VARS' TO ERR-LOC
+
+0430AD      IF ADD-RECORD
+0430AD         MOVE WS-BOOK-ID TO TBLBKS-BOOK-ID
+0430AD      END-IF
+
+0429UP      MOVE WS-TITLE           TO TBLBKS-TITLE-TEXT
+0428UP      MOVE WS-TOTAL-PAGES     TO TBLBKS-TOTAL-PAGES
+0428UP      MOVE WS-RATING-NUM      TO TBLBKS-RATING
+0428UP      MOVE WS-ISBN            TO TBLBKS-ISBN-TEXT
+0428UP      MOVE LENGTH OF WS-ISBN  TO TBLBKS-ISBN-LEN
+0428UP      MOVE WS-PUBLISHED-DATE  TO TBLBKS-PUBLISHED-DATE
+0428UP      MOVE WS-PUBLISHER-ID    TO TBLBKS-PUBLISHER-ID
+0429UP      .
+
+0428UP 3123-UPDATE-ROW.
+0428UP      MOVE '3123-UPDATE-ROW' TO ERR-LOC
+
+0428UP      EXEC SQL
+0428UP           UPDATE IBMUSER.BOOKS
+0428UP                  SET TITLE          = LTRIM(RTRIM(:TBLBKS-TITLE))
+0428UP                     ,TOTAL_PAGES    = :TBLBKS-TOTAL-PAGES
+0428UP                                       :IND-TOTAL-PAGES
+0428UP                     ,RATING         = :TBLBKS-RATING
+0428UP                                       :IND-RATING
+0428UP                     ,ISBN           = :TBLBKS-ISBN
+0428UP                                       :IND-ISBN
+0428UP                     ,PUBLISHED_DATE = :TBLBKS-PUBLISHED-DATE
+0428UP                                       :IND-PUB-DATE
+0428UP                     ,PUBLISHER_ID   = :TBLBKS-PUBLISHER-ID
+0428UP                                       :IND-PUB-ID
+0428UP                  WHERE BOOK_ID = :TBLBKS-BOOK-ID
+0428UP      END-EXEC
+0428UP      MOVE SQLCODE TO EVAL-CODE
+
+0429UP      EVALUATE TRUE
+0429UP          WHEN ERR-OK
+0428UP               SET REBUILD TO TRUE
+0428UP               SET FETCH   TO TRUE
+0429UP               MOVE 'UPDATE SUCCESSFUL'           TO MESSAGEO
+0429UP          WHEN ERR-DEC
+0429UP               MOVE 'RATING FORMAT MUST BE 99.99' TO MESSAGEO
+0429UP               MOVE -1                            TO BKRATNGL
+0430ER               MOVE 0                             TO BKPAGESL
+0430ER                                                     BTITLE1L
+0429UP          WHEN ERR-DATE
+0429UP               MOVE 'PUBLISHED DATE FORMAT MUST BE YYYY-MM-DD'
+0429UP                       TO MESSAGEO
+0429UP               MOVE -1 TO BKPBDATL
+0430ER               MOVE 0  TO BKISBNL
+0430ER                          BKRATNGL
+0430ER                          BKPAGESL
+0430ER                          BTITLE1L
+0429UP          WHEN OTHER
+0428UP               MOVE 'UPDATE BOOKS' TO ERR-MSG
+0428UP               PERFORM 9999-ERROR-HANDLING
+0429UP      END-EVALUATE
+0428UP      .
+
+0430AD 3130-PROCESS-ADD.
+0430AD      MOVE '3130-PROCESS-ADD' TO ERR-LOC
+
+0430AD      SET CONFIRM-ADD TO TRUE
+
+0430AD      EVALUATE FUNCTION UPPER-CASE(CONFRMIO)
+0430AD          WHEN 'Y'
+0430AD               PERFORM 3121-CHECK-FIELDS
+0430AD               PERFORM 3122-PREP-DCLGEN-VARS
+
+0430AD               IF CONFIRM-ADD
+0430AD                  PERFORM 3131-INSERT-ROW
+0430AD               END-IF
+0430AD          WHEN 'N'
+0430AD               INITIALIZE WS-ADD-RECORD-SW
+0430AD          WHEN OTHER
+0430AD               MOVE 'PLEASE TYPE Y OR N ONLY' TO MESSAGEO
+0430AD      END-EVALUATE
+0430AD      .
+
+0430AD 3131-INSERT-ROW.
+0430AD      MOVE '3131-INSERT-ROW' TO ERR-LOC
+
+0430AD      EXEC SQL
+0430AD           INSERT INTO IBMUSER.BOOKS
+0430AD                       (BOOK_ID
+0430AD                       ,TITLE
+0430AD                       ,TOTAL_PAGES
+0430AD                       ,RATING
+0430AD                       ,ISBN
+0430AD                       ,PUBLISHED_DATE
+0430AD                       ,PUBLISHER_ID
+0430AD                       )
+0430AD                  VALUES
+0430AD                       (:TBLBKS-BOOK-ID
+0430AD                       ,LTRIM(RTRIM(:TBLBKS-TITLE))
+0430AD                       ,:TBLBKS-TOTAL-PAGES    :IND-TOTAL-PAGES
+0430AD                       ,:TBLBKS-RATING         :IND-RATING
+0430AD                       ,:TBLBKS-ISBN           :IND-ISBN
+0430AD                       ,:TBLBKS-PUBLISHED-DATE :IND-PUB-DATE
+0430AD                       ,:TBLBKS-PUBLISHER-ID   :IND-PUB-ID
+0430AD                       )
+0430AD      END-EXEC
+0430AD      MOVE SQLCODE TO EVAL-CODE
+
+0429UP      EVALUATE TRUE
+0429UP          WHEN ERR-OK
+0428UP               SET REBUILD TO TRUE
+0430AD               INITIALIZE WS-ADD-RECORD-SW
+0429UP               MOVE 'INSERT SUCCESSFUL'           TO MESSAGEO
+0430AD          WHEN ERR-ID
+0430AD               MOVE 'DUPLICATE BOOK ID FOUND'     TO MESSAGEO
+0430AD               MOVE -1                            TO BKIDNUML
+0429UP          WHEN ERR-DEC
+0429UP               MOVE 'RATING FORMAT MUST BE 99.99' TO MESSAGEO
+0429UP               MOVE -1                            TO BKRATNGL
+0430ER               MOVE 0                             TO BKPAGESL
+0430ER                                                     BTITLE1L
+0429UP          WHEN ERR-DATE
+0429UP               MOVE 'PUBLISHED DATE FORMAT MUST BE YYYY-MM-DD'
+0429UP                       TO MESSAGEO
+0429UP               MOVE -1 TO BKPBDATL
+0430ER               MOVE 0  TO BKISBNL
+0430ER                          BKRATNGL
+0430ER                          BKPAGESL
+0430ER                          BTITLE1L
+0429UP          WHEN OTHER
+0428UP               MOVE 'INSERT BOOKS' TO ERR-MSG
+0428UP               PERFORM 9999-ERROR-HANDLING
+0429UP      END-EVALUATE
+0430AD      .
+
+       3200-RETURN.
+            MOVE '3200-RETURN' TO ERR-LOC
+
+            EXEC CICS
+                 XCTL PROGRAM  (WS-LIST-PGMID)
+                      COMMAREA (WS-COMMAREA)
+                      RESP     (EVAL-CODE)
+            END-EXEC
+
+            IF EVAL-CODE NOT = DFHRESP (NORMAL)
+               MOVE 'XCTL PROGRAM' TO ERR-MSG
+               PERFORM 9999-ERROR-HANDLING
+0422CB      END-IF
+            .
+
+       3300-PAGE-UP.
+            MOVE '3300-PAGE-UP' TO ERR-LOC
+
+            IF WS-SEL-NUM > 1
+               SUBTRACT 1 FROM WS-SEL-NUM
+            ELSE
+               MOVE 'TOP OF SELECTION REACHED' TO MESSAGEO
+0422CB      END-IF
+
+            PERFORM 1000-REFRESH-PAGE
+            .
+
+       3400-PAGE-DOWN.
+            MOVE '3400-PAGE-DOWN' TO ERR-LOC
+
+            IF WS-SEL-NUM < WS-TOTAL-SEL
+               ADD 1 TO WS-SEL-NUM
+            ELSE
+               MOVE 'END OF SELECTION REACHED' TO MESSAGEO
+0422CB      END-IF
+
+            PERFORM 1000-REFRESH-PAGE
+            .
+
+       9999-ERROR-HANDLING.
+            MOVE EVAL-CODE TO ERR-CODE
+            MOVE WS-ERROR  TO WS-SEND-MSG
+            PERFORM 9999-TERMINATE
+            .
+
+       9999-TERMINATE.
+            EXEC CICS
+                 SEND TEXT
+                      FROM   (WS-SEND-MSG)
+                      ERASE
+                      FREEKB
+            END-EXEC
+
+            EXEC CICS
+                 RETURN
+            END-EXEC
+            .
+
